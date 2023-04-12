@@ -18,6 +18,20 @@ src: url('../assest/fonts/Montserrat-Arabic\ SemiBold\ 600.otf');
 font-family: 'monBold';
 src: url('../assest/fonts/Montserrat-Arabic\ Bold\ 700.otf');
 }
+.c1
+{
+  display: inline;
+}
+.c2{
+display: none;}
+@media  screen and  (max-width:990px) {
+  .c1
+  {
+    display: none;
+  }
+  .c2{
+  display: inline;}
+}
 *{
   font-family: 'monReg' ;
 }
