@@ -15,7 +15,14 @@
   src: url('../assest/fonts/Montserrat-Arabic\ SemiBold\ 600.otf');
 }
 
-
+.join-us a{
+  color: #FFF;
+  text-decoration: none !important;
+}
+.login a{
+  color: #280be7;
+  text-decoration: none !important;
+}
 *{
     font-family: 'monReg' ;
 }

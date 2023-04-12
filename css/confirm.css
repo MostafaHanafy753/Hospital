@@ -18,7 +18,14 @@
     font-family: 'monBlod';
     src: url('../assest/fonts/Montserrat-Arabic\ Bold\ 700.otf');
 }
-
+.join-us a{
+  color: #FFF;
+  text-decoration: none !important;
+}
+.login a{
+  color: #280be7;
+  text-decoration: none !important;
+}
 *{
     font-family: 'monReg' ;
 }

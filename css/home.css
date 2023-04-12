@@ -22,7 +22,14 @@ src: url('../assest/fonts/Montserrat-Arabic\ Bold\ 700.otf');
 {
   display: inline;
 }
-
+.join-us a{
+  color: #FFF;
+  text-decoration: none !important;
+}
+.login a{
+  color: #280be7;
+  text-decoration: none !important;
+}
 .c2{
 display: none;}
 @media  screen and  (max-width:990px) {

@@ -33,6 +33,14 @@ display: none;}
   .c2{
   display: inline;}
 }
+.join-us a{
+  color: #FFF;
+  text-decoration: none !important;
+}
+.login a{
+  color: #280be7;
+  text-decoration: none !important;
+}
 /* nav bar*/
 body[dir=rtl] {
   /* Idle State of the stars */
