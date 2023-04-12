@@ -8,20 +8,20 @@ localStorage.setItem('dir','true');
  }
  $(document.body).attr('dir',localStorage.getItem('dir')=='true'?'rtl':'ltr');
 
- 
+
  if( localStorage.getItem('dir')=='true')
  {
   $('#lange span').text('EN')
  }
  else   $('#lange span').text('AR')
   $('#lange').click(()=>{
-   
-   
+
+
   if(localStorage.getItem('dir')=='true')
   {
     localStorage.setItem('dir',false)
- 
-    
+
+
   }
   else {localStorage.setItem('dir',true)
 
@@ -30,7 +30,7 @@ localStorage.setItem('dir','true');
   location.reload()
 
 
-    
+
   })
 })
 
@@ -76,7 +76,7 @@ let bodyRtl=localStorage.getItem('dir')
   });
 
 
-          
+
   $('.spec-slider').slick({
     dots: false,
     infinite: false,
@@ -120,7 +120,7 @@ let bodyRtl=localStorage.getItem('dir')
     scrollTrigger:{
         trigger:'.Counting div',
         toggleActions:'restart none none none'
-      
+
     }
     ,
     duration:1,
@@ -178,6 +178,23 @@ let bodyRtl=localStorage.getItem('dir')
       });
 
   }
+
+  // function func() {
+  //   var x = document.getElementById("search");
+  //   if (x.style.display === "none") {
+  //     x.style.display = "none";
+  //   } else {
+  //     x.style.display = "none";
+  //   }
+  // }
+  // function func2() {
+  //   var x = document.getElementById("search");
+  //   if (x.style.display === "inline") {
+  //     x.style.display = "inline";
+  //   } else {
+  //     x.style.display = "inline";
+  //   }
+  // }
   /*  This is to get the value on pressing the submit button
     *   In this example, I used a hidden input box to store the otp after compiling data from each input fields
     *   This hidden input will have a name attribute and all other single character fields won't have a name attribute
