@@ -1,0 +1,792 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/coming.css">
+</head>
+
+<body dir="rtl">
+    <!-- nav bar-->
+    <nav class="navbar fixed-top navbar-expand-lg  mainNav">
+        <div class="container d-flex ">
+            <a class="navbar-brand logo c2 " href="#"><img src="assest/images/logo.png" class=" " alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
+                aria-controls="offcanvasRight">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
+                <div class="c1">
+                    <a class="navbar-brand logo  " href="#"><img src="assest/images/logo.png" class=" " alt=""></a>
+                </div>
+                <ul class="navbar-nav nav-links">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">من نحن</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">اتصل بنا</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">انضم إلينا</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " style="cursor: pointer;"> <button type="button "
+                                style="border:none; background-color:transparent;" class="" data-bs-toggle="modal"
+                                data-bs-target="#plan">
+                                <span><img src="/assest/svg/img/svgexport-7 (1).png" alt=""></span>الخطط
+                                والأسعار
+                            </button></a>
+                    </li>
+                    <li class="nav-item p-1">
+                        <div class="country-nav " style="margin-left:5px;">
+                            <div class="dropdown ">
+                                <button class="cout  dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false"> <img width="38px" height="25px"
+                                        src="assest/svg/img/saudi-arabia-svgrepo-com.png" alt="">
+                                    السعودية
+                                </button>
+
+                                <ul class="dropdown-menu dropdown-menu-light">
+                                    <li><a class="dropdown-item d-flex justify-content-start active" href="#"> <img
+                                                width="35px" height="25px" src="assest/svg/img/saudi-arabia-svgrepo-com.png"
+                                                alt=""> السعودية</a></li>
+                                    <li><a class="dropdown-item   d-flex justify-content-start " href="#"
+                                            style="text-align: right;"> <img width="35px" height="25px"
+                                                src="assest/svg/img/saudi-arabia-svgrepo-com.png"class="mr-1" alt=""> مصر </a></li>
+                                    <li><a class="dropdown-item  d-flex justify-content-start " href="#"> <img width="35px"
+                                                height="25px" src="assest/svg/img/saudi-arabia-svgrepo-com.png" alt=""> السعودية
+                                        </a></li>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item p-1">
+                        <div id="lange" style="cursor: pointer; color: #4835FC;"><img src="assest/svg/img/global-bulk.png"
+                            alt=""> <span>EN</span></div>
+                    </li>
+                </ul>
+                <div class="nav-btns d-flex align-items-center ">
+                    <div class="btn-group">
+                        <div class="login" data-bs-toggle="modal" data-bs-target="#exampleModal">الدخول</div>
+                        <div class="join-us" data-bs-toggle="modal" data-bs-target="#new-account">انضم الآن</div>
+                    </div>
+                    <div class="profile align-items-center " style="cursor: pointer;">
+                        <img src="/assest/images/NoPath - Copy (31).png" alt="">
+                        <p style="margin: 0; margin-right: 4px;">مرحباً بك يا <span
+                                style="color: #4835FC;">إبراهيم</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!--end nav-->
+
+
+    <div class="page-container">
+        <div class="container-edited">
+            <h2 class="path-title"><span><a id="arrow" style="text-decoration: none ; color: #4835FC;" href="home.html"><img
+                            style="margin-left:5px;" src="/assest/svg/img/vuesax-linear-arrow-right.png" alt="">حجوزاتي
+                        /</a>
+                </span> تفاصيل
+                الحجز </h2>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="doctor-card-profile d-flex">
+                        <div><img src="assest/images/doc.png" alt=""></div>
+                        <div class="doc-profile-text pe-2 ">
+                            <p>د. احمد عصام</p>
+                            <p>تخصص أسنان</p>
+                            <div class="stars-section">
+
+                                <ul style="margin: 0;" id='stars' data-rate="4">
+                                    <li class='star' title='Poor' data-value='1'>
+                                        <img src="assest/svg/img/star.png" alt="">
+                                    </li>
+                                    <li class='star' title='Fair' data-value='2'>
+                                        <img src="assest/svg/img/star.png" alt="">
+                                    </li>
+                                    <li class='star' title='Good' data-value='3'>
+                                        <img src="assest/svg/img/star.png" alt="">
+                                    </li>
+                                    <li class='star' title='Excellent' data-value='4'>
+                                        <img src="assest/svg/img/star.png" alt="">
+                                    </li>
+                                    <li class='star' title='WOW!!!' data-value='5'>
+                                        <img src="assest/svg/img/star.png" alt="">
+                                    </li>
+                                </ul>
+
+                            </div>
+                        </div>
+
+
+
+
+                    </div>
+                    <div class="doctor-detials punch mt-3">
+                        <h2 style="font-size: 18px; font-family: 'monSemiBlod';">تفاصيل الحجز</h2>
+                        <p style="color: #4835FC; font-size: 14px;"> <span><img width="20px" height="20px"
+                                    src="assest/svg/img/vuesax-outline-moneys.png" alt=""></span> 60 ر.س
+                        </p>
+                        <p style="font-size: 14px;"> <span><img width="22px" height="22px"
+                                    src="assest/svg/img/location-pin-svgrepo-com.png" alt=""></span> المملكة العربية
+                            السعودية - الرياض</p>
+                        <p style="font-size: 14px;"><span><img width="22px" height="22px"
+                                    src="assest/svg/img/clock-sports-stopwatch-svgrepo-com.png" alt=""></span>مدة
+                            الانتظار : 15د إلي 25د</p>
+                    </div>
+                    <div class="pateint-detail punch mt-3">
+                        <h2 style="font-size: 18px ; margin-bottom: 10px; font-family: 'monSemiBlod';">بيانات المريض
+                        </h2>
+                        <p style="color:#6A6E83; font-size:14px; margin-bottom: 4px; font-family: 'monBlod';">الاسم
+                            بالكامل</p>
+                        <h2 style="font-size:16px; border-bottom: 0.5px solid #6A6E83; padding-bottom: 20px;">إبراهيم
+                            خالد الزيني</h2>
+
+                        <p style="color:#6A6E83; font-size:14px; margin-bottom: 4px; font-family: 'monBlod';"> رقم
+                            الجوال</p>
+                        <h3 style="font-size: 14px; direction: ltr; text-align: end;">+996 021445120</h3>
+                    </div>
+                    <div class="payment punch mt-3">
+                        <h2 style="font-size: 18px ; margin-bottom: 10px; font-family: 'monSemiBlod';">وسيلة الدفع </h2>
+                        <p style="color:#6A6E83; font-size:14px; margin-bottom: 4px;font-family: 'monBlod';">الدفع
+                            بالبطاقة </p>
+                        <div style="direction: ltr; display: flex ; justify-content: end; align-items: center;">
+                            <p class="d-flex align-items-center " style="height: 100%; margin: 0;">●●●● ●●●● ●●●● 4401
+                            </p>
+                            <span><img width="20px" height="20px" style="margin-left: 4px;"
+                                    src="assest/svg/img/icons8-mastercard-logo.png" alt=""></span>
+
+                        </div>
+                    </div>
+                    <div class="notice punch mt-3">
+                        <h2 style="font-size: 18px ; margin-bottom: 10px; font-family: 'monSemiBlod';">ملاحظاتك  </h2>
+                        <p style="color:#6A6E83; font-size:14px; margin-bottom: 4px;">المريض يعاني من بعض الامراض المزمنة مثل السكر</p>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+
+                    <div class="checkout punch  mb-2">
+                        <h2 style="font-size: 18px; font-family: 'monSemiBlod';"> تفاصيل التكلفة </h2>
+
+                        <div class="pay d-flex justify-content-between mt-2"><span>سعر الكشف</span><span
+                                class="money-num">60.00 </span></div>
+                        <div class="pay d-flex justify-content-between mt-2"><span>سعر الكشف</span><span
+                                class="money-num">60.00 </span></div>
+
+                        <div class="sum d-flex justify-content-between mt-2"><span>المجموع الكلي </span><span
+                                class="money-sum">60.00</span></div>
+                    </div>
+                    <div class="coming-btns d-flex justify-content-between mt-3">
+
+
+                        <div class="confirm-btn" type="button" data-bs-toggle="offcanvas"
+                            data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"> <span><img
+                                    src="/assest/svg/img/messages-outline.png" alt=""></span> محادثة الطبيب</div>
+
+
+                        <div class=" cancel-btn"> الغاء الحجز</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+<!--chat-->
+    <div class="offcanvas offcanvas-end " tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+        <div class="offcanvas-header justify-content-start">
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            <h5 class="offcanvas-title" id="offcanvasRightLabel"> محادثة مع الطبيب</h5>
+
+        </div>
+        <div class="offcanvas-body">
+            <div class="doc-chat-profile d-flex">
+                <div>
+                    <img src="assest/images/doc.png" alt="">
+                </div>
+                <div class="doc-profile-text pe-2  ">
+                    <p>د. احمد عصام</p>
+                    <div class="d-flex align-items-center mt-2" style="font-size: 10px; color: #6A6E83;">
+                        <div
+                            style="width: 10px; height: 10px; border-radius: 50%; background-color: #5FBD5D; margin-left: 4px;">
+                        </div> متاح الان
+                    </div>
+                </div>
+            </div>
+            <div class="doc-chat mt-5">
+                <div class="user-message d-flex">
+<div class="user-pic">
+    <img width="26px" height="26px" src="/assest/images/NoPath - Copy (31).png" alt="">
+</div>
+<div class="user-message-content">
+    <div class="content">
+        😄 مرحباً دكتور احمد ، هل انت متاح الآن ؟ لدي استفسار بسيط
+    </div>
+    <div class="date">
+        م 3:00
+    </div>
+</div>
+                </div>
+                <div class="doc-message d-flex ">
+
+                    <div class="doc-message-content">
+                        <div class="content">
+                            😄 مرحباً دكتور احمد ، هل انت متاح الآن ؟ لدي استفسار بسيط
+                        </div>
+                        <div class="date">
+                            م 3:00
+                        </div>
+                    </div>
+                    <div class="doc-pic">
+                        <img width="26px" height="26px" src="/assest/images/NoPath - Copy (31).png" alt="">
+                    </div>
+                </div>
+                <div class="user-message d-flex">
+                    <div class="user-pic">
+                        <img width="26px" height="26px" src="/assest/images/NoPath - Copy (31).png" alt="">
+                    </div>
+                    <div class="user-message-content">
+                        <div class="content">
+                            😄 مرحباً دكتور احمد ، هل انت متاح الآن ؟ لدي استفسار بسيط
+                        </div>
+                        <div class="date">
+                            م 3:00
+                        </div>
+                    </div>
+                                    </div>
+                                    <div class="doc-message d-flex ">
+
+                                        <div class="doc-message-content">
+                                            <div class="content">
+                                                😄 مرحباً دكتور احمد ، هل انت متاح الآن ؟ لدي استفسار بسيط
+                                            </div>
+                                            <div class="date">
+                                                م 3:00
+                                            </div>
+                                        </div>
+                                        <div class="doc-pic">
+                                            <img width="26px" height="26px" src="/assest/images/NoPath - Copy (31).png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="user-message d-flex">
+                                        <div class="user-pic">
+                                            <img width="26px" height="26px" src="/assest/images/NoPath - Copy (31).png" alt="">
+                                        </div>
+                                        <div class="user-message-content">
+                                            <div class="content">
+                                                😄 مرحباً دكتور احمد ، هل انت متاح الآن ؟ لدي استفسار بسيط
+                                            </div>
+                                            <div class="date">
+                                                م 3:00
+                                            </div>
+                                        </div>
+                                                        </div>
+                                                        <div class="doc-message d-flex ">
+
+                                                            <div class="doc-message-content">
+                                                                <div class="content">
+                                                                    😄 مرحباً دكتور احمد ، هل انت متاح الآن ؟ لدي استفسار بسيط
+                                                                </div>
+                                                                <div class="date">
+                                                                    م 3:00
+                                                                </div>
+                                                            </div>
+                                                            <div class="doc-pic">
+                                                                <img width="26px" height="26px" src="/assest/images/NoPath - Copy (31).png" alt="">
+                                                            </div>
+                                                        </div>
+                                                        <div class="user-message d-flex">
+                                                            <div class="user-pic">
+                                                                <img width="26px" height="26px" src="/assest/images/NoPath - Copy (31).png" alt="">
+                                                            </div>
+                                                            <div class="user-message-content">
+                                                                <div class="content">
+                                                                    😄 مرحباً دكتور احمد ، هل انت متاح الآن ؟ لدي استفسار بسيط
+                                                                </div>
+                                                                <div class="date">
+                                                                    م 3:00
+                                                                </div>
+                                                            </div>
+                                                                            </div>
+                                                                            <div class="doc-message d-flex ">
+
+                                                                                <div class="doc-message-content">
+                                                                                    <div class="content">
+                                                                                        😄 مرحباً دكتور احمد ، هل انت متاح الآن ؟ لدي استفسار بسيط
+                                                                                    </div>
+                                                                                    <div class="date">
+                                                                                        م 3:00
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="doc-pic">
+                                                                                    <img width="26px" height="26px" src="/assest/images/NoPath - Copy (31).png" alt="">
+                                                                                </div>
+                                                                            </div>
+            </div>
+            <div class="send-message">
+                <form action="">
+                    <input type="text" class="send-mes" placeholder="ارسل رسالة . . . ">
+                    <button class="send">
+                        <img src="assest/svg/img/vuesax-bold-send.png" alt="">
+
+                    </button>
+                </form>
+
+            </div>
+        </div>
+
+
+</div>
+<!-- end chat-->
+<footer style="margin-top:80px">
+    <div class="Description">
+        <div class="container  ">
+            <div class="row justify-content-around">
+                <div class="about col-lg-3">
+                    <div class="about-logo">
+                       <img width="145px" height="100px" src="assest/images/logo.png" alt="">
+
+                    </div>
+                    <div class="about-text">
+                        هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على الشكل
+                        الخارجي للنص أو شكل توضع الفقرات في الصفحة التي يقرأها
+                    </div>
+                </div>
+                <div class="GoTo col-lg-2 mt-4">
+                    <h2 style="font-family: 'monSemiBlod'; font-size: 20px;"> المساعدة</h2>
+                <ul class="list">
+
+                    <li><a href="">الاتصال والدعم</a></li>
+                        <li><a href="">سياسة الخصوصية</a></li>
+                        <li><a href="">الشروط والاحكام </a></li>
+
+
+                </ul>
+                </div>
+                <div class="GoTo col-lg-2 mt-4">
+                    <h2 style="font-family: 'monSemiBlod'; font-size: 20px;">الذهاب إلي</h2>
+                <ul class="list">
+                    <li>    <a href="">من نحن</a>
+                    </li>
+                    <li><a href="">الاتصال والدعم</a></li>
+                        <li><a href="">الخصوصية</a></li>
+                        <li><a href="">انضم الينا</a></li>
+
+
+                </ul>
+                </div>
+
+                <div class="follow-us col-lg-3 mt-4">
+                    <h2 style="font-family: 'monSemiBlod'; font-size: 20px;">تابعنا عبر</h2>
+                    <p>
+                        أبقي دائماً علي التواصل معنا ومعرفة آخر المستجدات والأنشطة الخاصة بنا واخر الاخبار والاحداث
+                    </p>
+                    <div class="social-icons">
+                        <span>
+                            <img src="assest/svg/img/Group 16908.png" alt="">
+                          </span>
+                        <span>
+                            <img src="assest/svg/img/Group 16909.png" alt="">
+                          </span>
+                        <span>
+                            <img src="assest/svg/img/Group 11592.png" alt="">
+                          </span>
+                          <span>
+                            <img src="assest/svg/img/Group 11595.png" alt="">
+                          </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="copy-right">
+        <span style="color: #6A6E83; font-weight: 100;">©جميع الحقوق محفوظة 2022 - شية</span>
+    </div>
+</footer>
+<div class="offcanvas offcanvas-end" tabindex="-1" id="nav" aria-labelledby="nav">
+    <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasRightLabel">Offcanvas right</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+        <div class="nav-btns mb-4 logged">
+            <div class="country-nav mb-4" >
+                <div class="dropdown ">
+                    <button class="cout  dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false"> <img width="38px" height="25px" src="assest/svg/img/saudi-arabia-svgrepo-com.png" alt="">
+                        السعودية
+                    </button>
+                    <ul class="dropdown-menu dropdown-menu-light">
+                      <li><a class="dropdown-item d-flex justify-content-start active" href="#"> <img width="38px" height="25px" src="assest/svg/img/saudi-arabia-svgrepo-com.png" alt="">   السعودية</a></li>
+                      <li><a class="dropdown-item   d-flex justify-content-start " href="#" style="text-align: right;"> <img width="38px" height="25px" src="assest/svg/img/saudi-arabia-svgrepo-com.png" alt="">   مصر </a></li>
+                      <li><a class="dropdown-item  d-flex justify-content-start " href="#"> <img width="38px" height="25px" src="assest/svg/img/saudi-arabia-svgrepo-com.png" alt="">    السعودية  </a></li>
+
+                    </ul>
+                  </div>
+            </div>
+            <div class="btn-group">
+                <div class="login" data-bs-toggle="modal" data-bs-target="#exampleModal">الدخول</div>
+                <div class="join-us" data-bs-toggle="modal" data-bs-target="#new-account">انضم الآن</div>
+            </div>
+            <div class="profile align-items-center " style="cursor: pointer;">
+                <img src="/assest/images/NoPath - Copy (31).png" alt="">
+                <p style="margin: 0; margin-right: 4px;">مرحباً بك يا <span style="color: #4835FC;">إبراهيم</span>
+                </p>
+            </div>
+        </div>
+        <ul class="navbar-nav nav-links">
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">من نحن</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">اتصل بنا</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">انضم إلينا</a>
+            </li>
+            <li class="nav-item">
+
+                <a class="nav-link " style="cursor: pointer;"> <button type="button "
+                        style="border:none; background-color:transparent;" class="" data-bs-toggle="modal"
+                        data-bs-target="#plan">
+                        <span><img src="/assest/svg/img/svgexport-7 (1).png" alt=""></span>الخطط
+                        والأسعار
+                    </button></a>
+
+
+            </li>
+        </ul>
+
+    </div>
+    <!-- كلمة المرور-->
+</div>
+<!--استرجاع كلمة السر-->
+<div class="modal  fade" id="forgotpass" tabindex="-1" aria-labelledby="forgotpassword" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header d-block" style="border: none;">
+                <button type="button" class="btn-close"
+                    style="margin: 0; background-color: gray; border-radius: 50%; color: white; margin-bottom: 30px;"
+                    data-bs-dismiss="modal" aria-label="Close"></button>
+                <h1 class="modal-title " style="font-size: 30px;" id="exampleModalLabel"> استرجاع كلمة السر</h1>
+                <p style="color: #7D7D8D; font-size: 16px;">قم بإدخال رقم الهاتف المسجل به علي التطبيق ليصلك كود
+                    التأكيد من خلال رسالة نصية</p>
+            </div>
+            <div class="modal-body">
+                <form action="">
+                    <div class="modal-input" style="">
+                        <input type="text" placeholder="رقم الهاتف">
+                    </div>
+
+                    <button type="submit" class="login-btn" id="to-otb" data-bs-toggle="modal"
+                        data-bs-target="#otb-modal"> الإرسال والمتابعة</button>
+                </form>
+
+
+                <div style="margin-top: 50px;">
+                    <p data-bs-dismiss="modal" aria-label="Close" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal">العودة لتسجيل الدخول</p>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<!--تسجيل الدخول-->
+<div class="modal  fade " id="exampleModal" tabindex="-1" aria-labelledby="otb-modal" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header d-block" style="border: none;">
+                <button type="button" class="btn-close"
+                    style="margin: 0; background-color: gray; border-radius: 50%; color: white; margin-bottom: 30px;"
+                    data-bs-dismiss="modal" aria-label="Close"></button>
+                <h1 class="modal-title " style="font-size: 30px;" id="exampleModalLabel">مرحبا بك من جديد</h1>
+                <p style="color: #7D7D8D; font-size: 16px;">يرجي تسجيل الدخول للمتابعة</p>
+            </div>
+            <div class="modal-body">
+                <form action="">
+                    <div class="modal-input" style="">
+                        <input type="text" placeholder="البريد الالكتروني">
+                    </div>
+                    <div class="modal-input" style="position: relative;  margin-top: 20px;">
+                        <input type="password" placeholder="كلمة المرور">
+                        <span id="showPass" class="eye"><img src="assest/svg/img/vuesax-bold-eye.png" alt=""></span>
+                    </div>
+                    <div style="text-align: end; margin-top: 8px;"><a data-bs-dismiss="modal" aria-label="Close"
+                            data-bs-toggle="modal" data-bs-target="#forgotpass  ">هل
+                            نسيت كلمة السر؟</a></div>
+                    <button type="submit" class="login-btn">تسجيل الدخول</button>
+                </form>
+
+                <div class="middle-border">
+                    <p></p>
+                    <span>أو</span>
+                    <p></p>
+                </div>
+                <div class="login-google">
+                    <a href="">
+                        <p>
+                            <span><img src="/assest/svg/img/gmail icon.png" alt=""></span>
+                            تسجيل بواسطة جوجل
+                        </p>
+                    </a>
+                </div>
+                <div class="login-facebook">
+                    <a href="">
+                        <p>
+                            <span><img src="/assest/svg/img/svgexport-10 (2).png" alt=""></span>
+                            تسجيل بواسطة فيسبوك
+                        </p>
+                    </a>
+                </div>
+                <div style="margin-top: 50px;">
+                    <p>لا يوجد لديك حساب ؟<span style="cursor: pointer; color: #4835FC; margin-right: 5px;">تسجيل
+                            حساب جديد</span></p>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<!--تسجيل حساب جديد-->
+<div class="modal  fade " id="new-account" tabindex="-1" aria-labelledby="new-account" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header d-block" style="border: none;">
+                <button type="button" class="btn-close"
+                    style="margin: 0; background-color: gray; border-radius: 50%; color: white; margin-bottom: 30px;"
+                    data-bs-dismiss="modal" aria-label="Close"></button>
+                <h1 class="modal-title " style="font-size: 30px;" id="exampleModalLabel"> تسجيل حساب جديد </h1>
+                <p style="color: #7D7D8D; font-size: 16px;"> من فضلك ، قم بإدخال البيانات المطلوبة منك لإنشاء حساب
+                    جديد </p>
+            </div>
+            <div class="modal-body">
+                <form action="">
+                    <div class="modal-input mb-4" style="">
+                        <input type="text" placeholder="اسم المستخدم">
+                    </div>
+                    <div class="modal-input mb-4" style="">
+                        <input type="text" placeholder="رقم الهاتف">
+                    </div>
+                    <div class="modal-input mb-4" style="">
+                        <input type="text" placeholder="البريد الالكتروني (اختياري) ">
+                    </div>
+                    <div class="modal-input mb-4" style="position: relative;  margin-top: 20px;">
+                        <input type="password" placeholder="كلمة المرور">
+                        <span id="showPass" class="eye"><img src="assest/svg/img/vuesax-bold-eye.png" alt=""></span>
+                    </div>
+                    <div class="modal-input mb-4" style="position: relative;  margin-top: 20px;">
+                        <input type="password" placeholder="تأكيد كلمة السر ">
+                        <span id="showPass" class="eye"><img src="assest/svg/img/vuesax-bold-eye.png" alt=""></span>
+                    </div>
+                    <div style="text-align: end;"><a data-bs-dismiss="modal" aria-label="Close"
+                            data-bs-toggle="modal" data-bs-target="#forgotpass  ">هل
+                            نسيت كلمة السر؟</a></div>
+                    <button type="submit" class="login-btn">تسجيل الدخول</button>
+                </form>
+                <div class="mt-2">
+                    <p style="font-size: 14px; color: #4835FC;">بقيامك بالتسجيل لدينا فأنت توافق علي الشروط والاحكام
+                        و سياسات الخصوصية</p>
+                </div>
+
+                <div style="margin-top: 50px;">
+                    <p>لديك حساب ؟<span style="cursor: pointer; color: #4835FC; margin-right: 5px;"> تسجيل دخول الآن
+                        </span></p>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<!--رمز التفعيل-->
+<div class="modal  fade " id="otb-modal" tabindex="-1" aria-labelledby="otb-modal" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header d-block" style="border: none;">
+                <button type="button" class="btn-close"
+                    style="margin: 0; background-color: gray; border-radius: 50%; color: white; margin-bottom: 30px;"
+                    data-bs-dismiss="modal" aria-label="Close"></button>
+                <h1 class="modal-title " style="font-size: 30px; color: black;" id="exampleModalLabel"> رمز التفعيل
+                </h1>
+                <p style="color: #7D7D8D; font-size: 16px;">يرجي التأكد من الرمز المرسل إليك علي الرقم 966632015
+                    الخاص بك للمتابعة وتغيير كلمة السر</p>
+            </div>
+            <div class="modal-body">
+                <div class="flex justify-center input-contianer" style="direction: ltr;" id="OTPInput">
+                </div>
+                <!-- Change this name attribute to mach your form submission parameters. Make sure you update the id in the javascript code if any changes are made to the id attribute -->
+                <input hidden id="otp" name="otp" value="">
+                <button class="otb-submit" id="otpSubmit" data-bs-toggle="modal" data-bs-target="#new-pass  ">تأكيد
+                </button>
+
+
+                <div style="margin-top: 50px;">
+                    <p data-bs-dismiss="modal" aria-label="Close" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal">العودة لتسجيل الدخول</p>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</div>
+<!--كلمة سر جديدة-->
+<div class="modal  fade " id="new-pass" tabindex="-1" aria-labelledby="new-pass" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header d-block" style="border: none;">
+                <button type="button" class="btn-close"
+                    style="margin: 0; background-color: gray; border-radius: 50%; color: white; margin-bottom: 30px;"
+                    data-bs-dismiss="modal" aria-label="Close"></button>
+                <h1 class="modal-title " style="font-size: 30px;" id="exampleModalLabel"> إنشاء كلمة السر الجديدة
+                </h1>
+                <p style="color: #7D7D8D; font-size: 16px;">قم بإنشاء كلمة السر الجديدة وحاول استخدام الرموز
+                    والأرقام لتقوية كلمة المرور والأبتعاد عن كلمات المرور القديمة </p>
+            </div>
+            <div class="modal-body">
+                <form action="">
+                    <div class="modal-input" style="position: relative;  margin-top: 20px;">
+                        <input type="password" placeholder="كلمة المرور">
+                        <span id="showPass" class="eye"><img src="assest/svg/img/vuesax-bold-eye.png" alt=""></span>
+                    </div>
+                    <div class="modal-input" style="position: relative;  margin-top: 20px;">
+                        <input type="password" placeholder=" تأكيد كلمة السر الجديدة">
+                        <span id="showPass" class="eye"><img src="assest/svg/img/vuesax-bold-eye.png" alt=""></span>
+                    </div>
+
+                    <button type="submit" class="login-btn"> حفظ</button>
+                </form>
+
+
+                <div style="margin-top: 50px;">
+                    <p data-bs-dismiss="modal" aria-label="Close" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal">العودة لتسجيل الدخول</p>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</div>
+<!--الخطط والاسعار-->
+<div class="modal  fade " id="plan" tabindex="-1" aria-labelledby="plan" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content p-2 " style="background-color: #F8F9FD;">
+            <div class="modal-header d-block" style="border: none;">
+                <button type="button" class="btn-close"
+                    style="margin: 0; background-color: gray; border-radius: 50%; color: white; margin-bottom: 30px;"
+                    data-bs-dismiss="modal" aria-label="Close"></button>
+                <h1 class="modal-title " style="font-size: 30px;" id="exampleModalLabel"> الخطط والأسعار </h1>
+                <p style="color: #7D7D8D; font-size: 16px;">قم باختيار الخطة المناسبة لك مقابل السعر واحصل علي
+                    خصومات تصل إلي 50% للباقات المتاحة </p>
+            </div>
+            <div class="modal-body ">
+                <div class="punch p-2 prices-container ">
+                    <div class="price-sub d-flex justify-content-between punch p-3"
+                        style="background-color: #F8F9FD; border-radius: 8px;">
+                        <div class="num-sessions">
+                            <p style="margin: 0; font-family:'monBold'; font-size: 18px;">03</p>
+                            <p style="margin: 0;">جلسات</p>
+                        </div>
+                        <div class="time-price">
+                            <span style="margin: 0; font-family:'monBold'; font-size: 26px;">12$</span>
+                            <span>/أسبوعياً</span>
+                        </div>
+                    </div>
+                    <div class="sub-now">
+                        اشترك الآن
+                    </div>
+                </div>
+                <div class="punch p-2 prices-container ">
+                    <div class="price-sub d-flex justify-content-between punch p-3"
+                        style="background-color: #F8F9FD; border-radius: 8px;">
+                        <div class="num-sessions">
+                            <p style="margin: 0; font-family:'monBold'; font-size: 18px;">03</p>
+                            <p style="margin: 0;">جلسات</p>
+                        </div>
+                        <div class="time-price">
+                            <span style="margin: 0; font-family:'monBold'; font-size: 26px;">12$</span>
+                            <span>/أسبوعياً</span>
+                        </div>
+                    </div>
+                    <div class="sub-now">
+                        اشترك الآن
+                    </div>
+                </div>
+                <div class="punch p-2 prices-container ">
+                    <div class="price-sub d-flex justify-content-between punch p-3"
+                        style="background-color: #F8F9FD; border-radius: 8px;">
+                        <div class="num-sessions">
+                            <p style="margin: 0; font-family:'monBold'; font-size: 18px;">03</p>
+                            <p style="margin: 0;">جلسات</p>
+                        </div>
+                        <div class="time-price">
+                            <span style="margin: 0; font-family:'monBold'; font-size: 26px;">12$</span>
+                            <span>/أسبوعياً</span>
+                        </div>
+                    </div>
+                    <div class="sub-now">
+                        اشترك الآن
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</div>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"
+            integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/3.4.0/jquery-migrate.min.js"
+            integrity="sha512-QDsjSX1mStBIAnNXx31dyvw4wVdHjonOwrkaIhpiIlzqGUCdsI62MwQtHpJF+Npy2SmSlGSROoNWQCOFpqbsOg=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="js/bootstrap.bundle.min.js"></script>
+
+        <script src="js/stars-rating.js"></script>
+        <script src="js/showpass.js"></script>
+        <script>
+            const slider = document.querySelector('.doc-chat');
+let isDown = false;
+let startY;
+let scrollTop;
+
+slider.addEventListener('mousedown', (e) => {
+  isDown = true;
+
+  startY = e.pageY - slider.offsetTop ;
+  scrollTop = slider.scrollTop;
+});
+slider.addEventListener('mouseleave', () => {
+  isDown = false;
+
+});
+slider.addEventListener('mouseup', () => {
+  isDown = false;
+
+});
+slider.addEventListener('mousemove', (e) => {
+  if(!isDown) return;
+  e.preventDefault();
+  const Y = e.pageY - slider.scrollTop;
+  const walk = (Y - startY)/2 ; //scroll-fast
+  slider.scrollTop = scrollTop - walk;
+  console.log(walk);
+});
+        </script>
+        <script src="js/coming.js"></script>
+</body>
+
+</html>

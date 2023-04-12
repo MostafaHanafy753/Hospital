@@ -1,0 +1,260 @@
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    direction: rtl;
+  }
+
+  body {
+    background-image: linear-gradient( rgba(221, 215, 215, 0), rgb(222, 210, 235));
+    font-family: "MontserratReglur";
+  }
+
+  .input1{
+    border: 2px solid rgb(62, 62, 217);
+    border-radius: 4px;
+    text-align: right;
+  }
+
+
+  .container1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+.span1{
+    display: block;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+.span2{
+  display: block;
+  margin-bottom: 15px;
+}
+  form {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    padding: 40px;
+    position: relative;
+    overflow: hidden;
+    max-width: 500px;
+    width: 100%;
+  }
+
+  h1 {
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+
+  }
+
+  label {
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #333;
+    display: block;
+  }
+
+  input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+
+  button {
+    width: 100%;
+    padding: 10px;
+    background-image: linear-gradient(to left, rgba(255,0,0,0), rgb(91, 10, 177));
+    color: #fff !important;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+
+  button:hover {
+    background-color: #fff;
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(91, 10, 177));
+  }
+
+  #login-btn {
+    position: relative;
+    z-index: 1;
+  }
+
+  #login-btn:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(91, 10, 177));
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.3s ease;
+    z-index: -1;
+  }
+
+  #login-btn:hover:before {
+    transform: scaleX(1);
+  }
+  hr.new1 {
+    border-top: 1px solid rgb(82, 73, 73);
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .container{
+        padding: 20px;
+    }
+    form {
+      padding: 20px;
+    }
+
+    h1 {
+      font-size: 20px;
+      text-align: center;
+    }
+
+    label {
+      font-size: 12px;
+    }
+
+    input {
+      padding: 8px;
+    }
+
+    button {
+      padding: 8px;
+    }
+  }
+/***Register Page***/
+
+  #register-btn {
+    position: relative;
+    z-index: 1;
+  }
+
+  #register-btn:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(91, 10, 177));
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.3s ease;
+    z-index: -1;
+  }
+
+  #register-btn:hover:before {
+    transform: scaleX(1);
+  }
+
+  @media only screen and (max-width: 600px) {
+    form {
+      padding: 20px;
+    }
+
+    h1 {
+      font-size: 20px;
+    }
+
+    label {
+      font-size: 12px;
+    }
+
+    input {
+      padding: 8px;
+    }
+
+    button {
+      padding: 8px;
+    }
+  }
+  /*****/
+  .card {
+    border-radius: 1rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  }
+
+  .btn-primary {
+    background-color: #6C63FF;
+    border-color: #6C63FF;
+  }
+
+  .btn-primary:hover {
+    background-color: #5a4ee5;
+    border-color: #5a4ee5;
+  }
+
+  .btn-block {
+    border-radius: 0.5rem;
+  }
+
+  a {
+    color: #6C63FF;
+  }
+
+  a:hover {
+    color: #5a4ee5;
+    text-decoration: none;
+  }
+  .card {
+    border-radius: 1rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  }
+
+  .btn-primary {
+    background-color: #6C63FF;
+    border-color: #6C63FF;
+  }
+
+  .btn-primary:hover {
+    background-color: #5a4ee5;
+    border-color: #5a4ee5;
+  }
+
+  .btn-danger {
+    background-color: #3b5998;
+    border-color: #3b5998;
+  }
+
+  .btn-danger:hover {
+    background-color: #2d4373;
+    border-color: #2d4373;
+  }
+
+  .btn-outline-secondary {
+    color: #6C63FF;
+    border-color: #6C63FF;
+  }
+
+  .btn-outline-secondary:hover {
+    color: #5a4ee5;
+    border-color: #5a4ee5;
+  }
+
+  .btn-block {
+    border-radius: 0.5rem;
+  }
+
+  a {
+    color: #6C63FF;
+  }
+
+  a:hover {
+    color: #5a4ee5;
+    text-decoration: none;
+  }

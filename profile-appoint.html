@@ -1,0 +1,1001 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/profile.css">
+</head>
+
+<body dir="rtl">
+    <!-- nav bar-->
+    <nav class="navbar fixed-top navbar-expand-lg  mainNav">
+        <div class="container d-flex ">
+            <a class="navbar-brand logo c2 " href="#"><img src="assest/images/logo.png" class=" " alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
+                aria-controls="offcanvasRight">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
+                <div class="c1">
+                    <a class="navbar-brand logo  " href="#"><img src="assest/images/logo.png" class=" " alt=""></a>
+                </div>
+                <ul class="navbar-nav nav-links">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">من نحن</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">اتصل بنا</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">انضم إلينا</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " style="cursor: pointer;"> <button type="button "
+                                style="border:none; background-color:transparent;" class="" data-bs-toggle="modal"
+                                data-bs-target="#plan">
+                                <span><img src="/assest/svg/img/svgexport-7 (1).png" alt=""></span>الخطط
+                                والأسعار
+                            </button></a>
+                    </li>
+                    <li class="nav-item p-1">
+                        <div class="country-nav " style="margin-left:5px;">
+                            <div class="dropdown ">
+                                <button class="cout  dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false"> <img width="38px" height="25px"
+                                        src="assest/svg/img/saudi-arabia-svgrepo-com.png" alt="">
+                                    السعودية
+                                </button>
+
+                                <ul class="dropdown-menu dropdown-menu-light">
+                                    <li><a class="dropdown-item d-flex justify-content-start active" href="#"> <img
+                                                width="38px" height="25px" src="assest/svg/img/saudi-arabia-svgrepo-com.png"
+                                                alt=""> السعودية</a></li>
+                                    <li><a class="dropdown-item   d-flex justify-content-start " href="#"
+                                            style="text-align: right;"> <img width="38px" height="25px"
+                                                src="assest/svg/img/saudi-arabia-svgrepo-com.png" alt=""> مصر </a></li>
+                                    <li><a class="dropdown-item  d-flex justify-content-start " href="#"> <img width="38px"
+                                                height="25px" src="assest/svg/img/saudi-arabia-svgrepo-com.png" alt=""> السعودية
+                                        </a></li>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item p-1">
+                        <div id="lange" style="cursor: pointer; color: #4835FC;"><img src="assest/svg/img/global-bulk.png"
+                            alt=""> <span>EN</span></div>
+                    </li>
+                </ul>
+                <div class="nav-btns d-flex align-items-center ">
+                    <div class="btn-group">
+                        <div class="login" data-bs-toggle="modal" data-bs-target="#exampleModal">الدخول</div>
+                        <div class="join-us" data-bs-toggle="modal" data-bs-target="#new-account">انضم الآن</div>
+                    </div>
+                    <div class="profile align-items-center " style="cursor: pointer;">
+                        <img src="/assest/images/NoPath - Copy (31).png" alt="">
+                        <p style="margin: 0; margin-right: 4px;">مرحباً بك يا <span
+                                style="color: #4835FC;">إبراهيم</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!--end nav-->
+
+    <div class="page-container">
+        <div class="container ">
+            <div class="row">
+                <div class="col-lg-3 ">
+                    <div class="side-nav mb-4">
+                        <ul>
+                            <a >
+                                <li class="active route routee" data-page="#edit-profile"><span><img width="24px"
+                                            height="24px" src="assest/svg/img/dashboard-svgrepo-com.png"
+                                            alt=""></span>  لوحة التحكم
+                                     </li>
+                            </a>
+                            <a href="profile-editprofile.html">
+                                <li class=" route routee" data-page="#edit-profile"><span><img width="24px"
+                                            height="24px" src="assest/svg/img/user-settings-svgrepo-com (1).png"
+                                            alt=""></span> تعديل الملف
+                                    الشخصي </li>
+                            </a>
+                            <a href="profile-secuirty.html">
+                                <li class="route routee" data-page="#secure"><span><img width="24px" height="24px"
+                                            src="assest/svg/img/security-protection-shield-padlock-svgrepo-com.png"
+                                            alt=""></span>الحماية والآمان</li>
+                            </a>
+                            <a href="profile-appoint.html">
+                                <li class="route routee" data-page="#times"><span><img width="24px" height="24px"
+                                            src="assest/svg/img/vuesax-outline-calendar-2.png" alt=""></span>حجوزاتي</li>
+                            </a>
+                            <a href="profile-family.html">
+                                <li class="route routee" data-page="#family"><span><img width="24px" height="24px"
+                                            src="assest/svg/img/people-svgrepo-com.png" alt=""></span>العائلة</li>
+                            </a>
+                            <a href="profile-favorate.html">
+                                <li class="route routee" data-page="#saves"><span><svg style="stroke: black;"
+                                            id="vuesax_bold_archive" data-name="vuesax/bold/archive"
+                                            xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                            viewBox="0 0 24 24">
+                                            <g id="archive">
+                                                <path id="Vector"
+                                                    d="M13.5,0H3.86A3.869,3.869,0,0,0,0,3.86V17.95c0,1.8,1.29,2.56,2.87,1.69l4.88-2.71a2.118,2.118,0,0,1,1.87,0l4.88,2.71c1.58.88,2.87.12,2.87-1.69V3.86A3.884,3.884,0,0,0,13.5,0ZM11.69,7.75a8.878,8.878,0,0,1-3.01.53,8.878,8.878,0,0,1-3.01-.53.749.749,0,0,1-.45-.96.764.764,0,0,1,.97-.45,7.373,7.373,0,0,0,4.99,0,.75.75,0,0,1,.51,1.41Z"
+                                                    transform="translate(3.32 2)" fill="#F2F5FF" />
+                                                <path id="Vector-2" data-name="Vector" d="M0,0H24V24H0Z"
+                                                    transform="translate(24 24) rotate(180)" fill="#F2F5FF"
+                                                    opacity="0" />
+                                            </g>
+                                        </svg></span>المفضلة</li>
+                            </a>
+                            <li class="routee" data-page="#credits"> <span><img width="24px" height="24px"
+                                        src="assest/svg/img/credit-card-svgrepo-com.png" alt=""></span>بطاقات الدفع</li>
+                        </ul>
+                        <div class=" routee mt-3 " data-page="#edit-profile"><span><img width="24px" height="24px"
+                            src="assest/svg/img/logout-svgrepo-com.png" alt=""></span> تسجيل الخروج
+                     </div>
+                    </div>
+                </div>
+                <div class="col-lg-9">
+                   <div class="pages">
+                    <div class="appoint  " id="times">
+                        <h2 class="page-title"> حجوزاتي</h2>
+
+                        <div class="buttons-contiainer mt-4 row justify-content-between">
+                            <div class="time-btns
+                        d-flex col-lg-4 mb-4 ">
+                                <div class="">
+                                    <div class="btn-time active">القادمة</div>
+                                </div>
+                                <div class="">
+                                    <div class="btn-time">السابقة</div>
+                                </div>
+                                <div class="">
+                                    <div class="btn-time">الملغاة</div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="type d-flex justify-content-between mb-4  ">
+                                    <div> <span><img width="24px" height="24px"
+                                                src="assest/svg/img/hospital-building-clinic-svgrepo-com.png"
+                                                alt=""></span>
+                                        <span>زيارة للمستشفي</span>
+                                    </div>
+                                    <span class="align-self-end d-flex justify-content-end"><img width="20px"
+                                            height="20px" src="assest/svg/img/down-arrow-svgrepo-com.png" alt=""></span>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="cards row mb-4">
+                            <div class="col-lg-4 mb-4">
+                                <div class="doctor-card   ">
+                                    <div class="card-doc-container">
+                                        <div class="doctor-card-title d-flex justify-content-between">
+                                            <div class="doctor-card-profile d-flex">
+                                                <div><img src="assest/images/doc.png" alt=""></div>
+                                                <div class="doc-profile-text pe-2 ">
+                                                    <p>د. احمد عصام</p>
+                                                    <p>تخصص أسنان</p>
+                                                    <div class="stars-section">
+
+                                                        <ul style="margin: 0;" id='stars'>
+                                                            <li class='star' title='Poor' data-value='1'>
+                                                                <img src="assest/svg/img/star.png" alt="">
+                                                            </li>
+                                                            <li class='star' title='Fair' data-value='2'>
+                                                                <img src="assest/svg/img/star.png" alt="">
+                                                            </li>
+                                                            <li class='star' title='Good' data-value='3'>
+                                                                <img src="assest/svg/img/star.png" alt="">
+                                                            </li>
+                                                            <li class='star' title='Excellent' data-value='4'>
+                                                                <img src="assest/svg/img/star.png" alt="">
+                                                            </li>
+                                                            <li class='star' title='WOW!!!' data-value='5'>
+                                                                <img src="assest/svg/img/star.png" alt="">
+                                                            </li>
+                                                        </ul>
+
+                                                    </div>
+                                                </div>
+
+
+
+
+                                            </div>
+
+                                        </div>
+                                        <div style="padding-top:15px" class="card-doc-content">
+                                            <p><span><img width="22px" height="22px"
+                                                        src="assest/svg/img/location-pin-svgrepo-com.png" alt=""></span>
+                                                المملكة العربية السعودية - الرياض</p>
+                                            <p class="price"> <span><img width="20px" height="20px"
+                                                        src="assest/svg/img/vuesax-outline-moneys.png" alt=""></span> 60
+                                                ر.س
+                                            </p>
+                                            <p><span><img width="22px" height="22px"
+                                                        src="assest/svg/img/clock-sports-stopwatch-svgrepo-com.png"
+                                                        alt=""></span>مدة
+                                                الانتظار : 15د إلي 25د</p>
+
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 mb-4">
+                                <div class="doctor-card   ">
+                                    <div class="card-doc-container">
+                                        <div class="doctor-card-title d-flex justify-content-between">
+                                            <div class="doctor-card-profile d-flex">
+                                                <div><img src="assest/images/doc.png" alt=""></div>
+                                                <div class="doc-profile-text pe-2 ">
+                                                    <p>د. احمد عصام</p>
+                                                    <p>تخصص أسنان</p>
+                                                    <div class="stars-section">
+
+                                                        <ul style="margin: 0;" id='stars'>
+                                                            <li class='star' title='Poor' data-value='1'>
+                                                                <img src="assest/svg/img/star.png" alt="">
+                                                            </li>
+                                                            <li class='star' title='Fair' data-value='2'>
+                                                                <img src="assest/svg/img/star.png" alt="">
+                                                            </li>
+                                                            <li class='star' title='Good' data-value='3'>
+                                                                <img src="assest/svg/img/star.png" alt="">
+                                                            </li>
+                                                            <li class='star' title='Excellent' data-value='4'>
+                                                                <img src="assest/svg/img/star.png" alt="">
+                                                            </li>
+                                                            <li class='star' title='WOW!!!' data-value='5'>
+                                                                <img src="assest/svg/img/star.png" alt="">
+                                                            </li>
+                                                        </ul>
+
+                                                    </div>
+                                                </div>
+
+
+
+
+                                            </div>
+
+                                        </div>
+                                        <div style="padding-top:15px" class="card-doc-content">
+                                            <p><span><img width="22px" height="22px"
+                                                        src="assest/svg/img/location-pin-svgrepo-com.png" alt=""></span>
+                                                المملكة العربية السعودية - الرياض</p>
+                                            <p class="price"> <span><img width="20px" height="20px"
+                                                        src="assest/svg/img/vuesax-outline-moneys.png" alt=""></span> 60
+                                                ر.س
+                                            </p>
+                                            <p><span><img width="22px" height="22px"
+                                                        src="assest/svg/img/clock-sports-stopwatch-svgrepo-com.png"
+                                                        alt=""></span>مدة
+                                                الانتظار : 15د إلي 25د</p>
+
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 mb-4">
+                                <div class="doctor-card   ">
+                                    <div class="card-doc-container">
+                                        <div class="doctor-card-title d-flex justify-content-between">
+                                            <div class="doctor-card-profile d-flex">
+                                                <div><img src="assest/images/doc.png" alt=""></div>
+                                                <div class="doc-profile-text pe-2 ">
+                                                    <p>د. احمد عصام</p>
+                                                    <p>تخصص أسنان</p>
+                                                    <div class="stars-section">
+
+                                                        <ul style="margin: 0;" id='stars'>
+                                                            <li class='star' title='Poor' data-value='1'>
+                                                                <img src="assest/svg/img/star.png" alt="">
+                                                            </li>
+                                                            <li class='star' title='Fair' data-value='2'>
+                                                                <img src="assest/svg/img/star.png" alt="">
+                                                            </li>
+                                                            <li class='star' title='Good' data-value='3'>
+                                                                <img src="assest/svg/img/star.png" alt="">
+                                                            </li>
+                                                            <li class='star' title='Excellent' data-value='4'>
+                                                                <img src="assest/svg/img/star.png" alt="">
+                                                            </li>
+                                                            <li class='star' title='WOW!!!' data-value='5'>
+                                                                <img src="assest/svg/img/star.png" alt="">
+                                                            </li>
+                                                        </ul>
+
+                                                    </div>
+                                                </div>
+
+
+
+
+                                            </div>
+
+                                        </div>
+                                        <div style="padding-top:15px" class="card-doc-content">
+                                            <p><span><img width="22px" height="22px"
+                                                        src="assest/svg/img/location-pin-svgrepo-com.png" alt=""></span>
+                                                المملكة العربية السعودية - الرياض</p>
+                                            <p class="price"> <span><img width="20px" height="20px"
+                                                        src="assest/svg/img/vuesax-outline-moneys.png" alt=""></span> 60
+                                                ر.س
+                                            </p>
+                                            <p><span><img width="22px" height="22px"
+                                                        src="assest/svg/img/clock-sports-stopwatch-svgrepo-com.png"
+                                                        alt=""></span>مدة
+                                                الانتظار : 15د إلي 25د</p>
+
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 mb-4">
+                                <div class="doctor-card   ">
+                                    <div class="card-doc-container">
+                                        <div class="doctor-card-title d-flex justify-content-between">
+                                            <div class="doctor-card-profile d-flex">
+                                                <div><img src="assest/images/doc.png" alt=""></div>
+                                                <div class="doc-profile-text pe-2 ">
+                                                    <p>د. احمد عصام</p>
+                                                    <p>تخصص أسنان</p>
+                                                    <div class="stars-section">
+
+                                                        <ul style="margin: 0;" id='stars'>
+                                                            <li class='star' title='Poor' data-value='1'>
+                                                                <img src="assest/svg/img/star.png" alt="">
+                                                            </li>
+                                                            <li class='star' title='Fair' data-value='2'>
+                                                                <img src="assest/svg/img/star.png" alt="">
+                                                            </li>
+                                                            <li class='star' title='Good' data-value='3'>
+                                                                <img src="assest/svg/img/star.png" alt="">
+                                                            </li>
+                                                            <li class='star' title='Excellent' data-value='4'>
+                                                                <img src="assest/svg/img/star.png" alt="">
+                                                            </li>
+                                                            <li class='star' title='WOW!!!' data-value='5'>
+                                                                <img src="assest/svg/img/star.png" alt="">
+                                                            </li>
+                                                        </ul>
+
+                                                    </div>
+                                                </div>
+
+
+
+
+                                            </div>
+
+                                        </div>
+                                        <div style="padding-top:15px" class="card-doc-content">
+                                            <p><span><img width="22px" height="22px"
+                                                        src="assest/svg/img/location-pin-svgrepo-com.png" alt=""></span>
+                                                المملكة العربية السعودية - الرياض</p>
+                                            <p class="price"> <span><img width="20px" height="20px"
+                                                        src="assest/svg/img/vuesax-outline-moneys.png" alt=""></span> 60
+                                                ر.س
+                                            </p>
+                                            <p><span><img width="22px" height="22px"
+                                                        src="assest/svg/img/clock-sports-stopwatch-svgrepo-com.png"
+                                                        alt=""></span>مدة
+                                                الانتظار : 15د إلي 25د</p>
+
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 mb-4">
+                                <div class="doctor-card   ">
+                                    <div class="card-doc-container">
+                                        <div class="doctor-card-title d-flex justify-content-between">
+                                            <div class="doctor-card-profile d-flex">
+                                                <div><img src="assest/images/doc.png" alt=""></div>
+                                                <div class="doc-profile-text pe-2 ">
+                                                    <p>د. احمد عصام</p>
+                                                    <p>تخصص أسنان</p>
+                                                    <div class="stars-section">
+
+                                                        <ul style="margin: 0;" id='stars'>
+                                                            <li class='star' title='Poor' data-value='1'>
+                                                                <img src="assest/svg/img/star.png" alt="">
+                                                            </li>
+                                                            <li class='star' title='Fair' data-value='2'>
+                                                                <img src="assest/svg/img/star.png" alt="">
+                                                            </li>
+                                                            <li class='star' title='Good' data-value='3'>
+                                                                <img src="assest/svg/img/star.png" alt="">
+                                                            </li>
+                                                            <li class='star' title='Excellent' data-value='4'>
+                                                                <img src="assest/svg/img/star.png" alt="">
+                                                            </li>
+                                                            <li class='star' title='WOW!!!' data-value='5'>
+                                                                <img src="assest/svg/img/star.png" alt="">
+                                                            </li>
+                                                        </ul>
+
+                                                    </div>
+                                                </div>
+
+
+
+
+                                            </div>
+
+                                        </div>
+                                        <div style="padding-top:15px" class="card-doc-content">
+                                            <p><span><img width="22px" height="22px"
+                                                        src="assest/svg/img/location-pin-svgrepo-com.png" alt=""></span>
+                                                المملكة العربية السعودية - الرياض</p>
+                                            <p class="price"> <span><img width="20px" height="20px"
+                                                        src="assest/svg/img/vuesax-outline-moneys.png" alt=""></span> 60
+                                                ر.س
+                                            </p>
+                                            <p><span><img width="22px" height="22px"
+                                                        src="assest/svg/img/clock-sports-stopwatch-svgrepo-com.png"
+                                                        alt=""></span>مدة
+                                                الانتظار : 15د إلي 25د</p>
+
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 mb-4">
+                                <div class="doctor-card   ">
+                                    <div class="card-doc-container">
+                                        <div class="doctor-card-title d-flex justify-content-between">
+                                            <div class="doctor-card-profile d-flex">
+                                                <div><img src="assest/images/doc.png" alt=""></div>
+                                                <div class="doc-profile-text pe-2 ">
+                                                    <p>د. احمد عصام</p>
+                                                    <p>تخصص أسنان</p>
+                                                    <div class="stars-section">
+
+                                                        <ul style="margin: 0;" id='stars'>
+                                                            <li class='star' title='Poor' data-value='1'>
+                                                                <img src="assest/svg/img/star.png" alt="">
+                                                            </li>
+                                                            <li class='star' title='Fair' data-value='2'>
+                                                                <img src="assest/svg/img/star.png" alt="">
+                                                            </li>
+                                                            <li class='star' title='Good' data-value='3'>
+                                                                <img src="assest/svg/img/star.png" alt="">
+                                                            </li>
+                                                            <li class='star' title='Excellent' data-value='4'>
+                                                                <img src="assest/svg/img/star.png" alt="">
+                                                            </li>
+                                                            <li class='star' title='WOW!!!' data-value='5'>
+                                                                <img src="assest/svg/img/star.png" alt="">
+                                                            </li>
+                                                        </ul>
+
+                                                    </div>
+                                                </div>
+
+
+
+
+                                            </div>
+
+                                        </div>
+                                        <div style="padding-top:15px" class="card-doc-content">
+                                            <p><span><img width="22px" height="22px"
+                                                        src="assest/svg/img/location-pin-svgrepo-com.png" alt=""></span>
+                                                المملكة العربية السعودية - الرياض</p>
+                                            <p class="price"> <span><img width="20px" height="20px"
+                                                        src="assest/svg/img/vuesax-outline-moneys.png" alt=""></span> 60
+                                                ر.س
+                                            </p>
+                                            <p><span><img width="22px" height="22px"
+                                                        src="assest/svg/img/clock-sports-stopwatch-svgrepo-com.png"
+                                                        alt=""></span>مدة
+                                                الانتظار : 15د إلي 25د</p>
+
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                   </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <footer>
+        <div class="Description">
+            <div class="container  ">
+                <div class="row justify-content-around">
+                    <div class="about col-lg-3">
+                        <div class="about-logo">
+                           <img width="145px" height="100px" src="assest/images/logo.png" alt="">
+
+                        </div>
+                        <div class="about-text">
+                            هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على الشكل
+                            الخارجي للنص أو شكل توضع الفقرات في الصفحة التي يقرأها
+                        </div>
+                    </div>
+                    <div class="GoTo col-lg-2 mt-4">
+                        <h2 style="font-family: 'monSemiBold'; font-size: 20px;"> المساعدة</h2>
+                    <ul class="list">
+
+                        <li><a href="">الاتصال والدعم</a></li>
+                            <li><a href="">سياسة الخصوصية</a></li>
+                            <li><a href="">الشروط والاحكام </a></li>
+
+
+                    </ul>
+                    </div>
+                    <div class="GoTo col-lg-2 mt-4">
+                        <h2 style="font-family: 'monSemiBold'; font-size: 20px;">الذهاب إلي</h2>
+                    <ul class="list">
+                        <li>    <a href="">من نحن</a>
+                        </li>
+                        <li><a href="">الاتصال والدعم</a></li>
+                            <li><a href="">الخصوصية</a></li>
+                            <li><a href="">انضم الينا</a></li>
+
+
+                    </ul>
+                    </div>
+
+                    <div class="follow-us col-lg-3 mt-4">
+                        <h2 style="font-family: 'monSemiBold'; font-size: 20px;">تابعنا عبر</h2>
+                        <p>
+                            أبقي دائماً علي التواصل معنا ومعرفة آخر المستجدات والأنشطة الخاصة بنا واخر الاخبار والاحداث
+                        </p>
+                        <div class="social-icons">
+                            <span>
+                                <img src="assest/svg/img/Group 16908.png" alt="">
+                              </span>
+                            <span>
+                                <img src="assest/svg/img/Group 16909.png" alt="">
+                              </span>
+                            <span>
+                                <img src="assest/svg/img/Group 11592.png" alt="">
+                              </span>
+                              <span>
+                                <img src="assest/svg/img/Group 11595.png" alt="">
+                              </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copy-right">
+            <span style="color: #6A6E83; font-weight: 100;">©جميع الحقوق محفوظة 2022 - شية</span>
+        </div>
+    </footer>
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasRightLabel">Offcanvas right</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <div class="nav-btns mb-4 logged">
+                <div class="country-nav mb-4 ">
+                    <div class="dropdown ">
+                        <button class="cout  dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                            aria-expanded="false"> <img width="38px" height="25px"
+                                src="assest/svg/img/saudi-arabia-svgrepo-com.png" alt="">
+                            السعودية
+                        </button>
+                        <ul class="dropdown-menu dropdown-menu-light">
+                            <li><a class="dropdown-item d-flex justify-content-start active" href="#"> <img width="38px"
+                                        height="25px" src="assest/svg/img/saudi-arabia-svgrepo-com.png" alt=""> السعودية</a>
+                            </li>
+                            <li><a class="dropdown-item   d-flex justify-content-start " href="#"
+                                    style="text-align: right;"> <img width="38px" height="25px"
+                                        src="assest/svg/img/saudi-arabia-svgrepo-com.png" alt=""> مصر </a></li>
+                            <li><a class="dropdown-item  d-flex justify-content-start " href="#"> <img width="38px"
+                                        height="25px" src="assest/svg/img/saudi-arabia-svgrepo-com.png" alt=""> السعودية
+                                </a></li>
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="btn-group">
+                    <div class="login" data-bs-toggle="modal" data-bs-target="#exampleModal">الدخول</div>
+                    <div class="join-us" data-bs-toggle="modal" data-bs-target="#new-account">انضم الآن</div>
+                </div>
+                <div class="profile align-items-center " style="cursor: pointer;">
+                    <img src="/assest/images/NoPath - Copy (31).png" alt="">
+                    <p style="margin: 0; margin-right: 4px;">مرحباً بك يا <span style="color: #4835FC;">إبراهيم</span>
+                    </p>
+                </div>
+            </div>
+            <ul class="navbar-nav nav-links">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">من نحن</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">اتصل بنا</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">انضم إلينا</a>
+                </li>
+                <li class="nav-item">
+
+                    <a class="nav-link " style="cursor: pointer;"> <button type="button "
+                            style="border:none; background-color:transparent;" class="" data-bs-toggle="modal"
+                            data-bs-target="#plan">
+                            <span><img src="/assest/svg/img/svgexport-7 (1).png" alt=""></span>الخطط
+                            والأسعار
+                        </button></a>
+
+
+                </li>
+            </ul>
+            <ul class="routess">
+                <a >
+                    <li class="active route routee" data-page="#edit-profile"><span><img width="24px"
+                                height="24px" src="assest/svg/img/dashboard-svgrepo-com.png"
+                                alt=""></span>  لوحة التحكم
+                         </li>
+                </a>
+                <a href="profile-editprofile.html">
+                    <li class=" route routee" data-page="#edit-profile"><span><img width="24px"
+                                height="24px" src="assest/svg/img/user-settings-svgrepo-com (1).png"
+                                alt=""></span> تعديل الملف
+                        الشخصي </li>
+                </a>
+                <a href="profile-secuirty.html">
+                    <li class="route routee" data-page="#secure"><span><img width="24px" height="24px"
+                                src="assest/svg/img/security-protection-shield-padlock-svgrepo-com.png"
+                                alt=""></span>الحماية والآمان</li>
+                </a>
+                <a href="profile-appoint.html">
+                    <li class="route routee" data-page="#times"><span><img width="24px" height="24px"
+                                src="assest/svg/img/vuesax-outline-calendar-2.png" alt=""></span>حجوزاتي</li>
+                </a>
+                <a href="profile-family.html">
+                    <li class="route routee" data-page="#family"><span><img width="24px" height="24px"
+                                src="assest/svg/img/people-svgrepo-com.png" alt=""></span>العائلة</li>
+                </a>
+                <a href="profile-favorate.html">
+                    <li class="route routee" data-page="#saves"><span><svg style="stroke: black;"
+                                id="vuesax_bold_archive" data-name="vuesax/bold/archive"
+                                xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                viewBox="0 0 24 24">
+                                <g id="archive">
+                                    <path id="Vector"
+                                        d="M13.5,0H3.86A3.869,3.869,0,0,0,0,3.86V17.95c0,1.8,1.29,2.56,2.87,1.69l4.88-2.71a2.118,2.118,0,0,1,1.87,0l4.88,2.71c1.58.88,2.87.12,2.87-1.69V3.86A3.884,3.884,0,0,0,13.5,0ZM11.69,7.75a8.878,8.878,0,0,1-3.01.53,8.878,8.878,0,0,1-3.01-.53.749.749,0,0,1-.45-.96.764.764,0,0,1,.97-.45,7.373,7.373,0,0,0,4.99,0,.75.75,0,0,1,.51,1.41Z"
+                                        transform="translate(3.32 2)" fill="#F2F5FF" />
+                                    <path id="Vector-2" data-name="Vector" d="M0,0H24V24H0Z"
+                                        transform="translate(24 24) rotate(180)" fill="#F2F5FF"
+                                        opacity="0" />
+                                </g>
+                            </svg></span>المفضلة</li>
+                </a>
+                <li class="routee" data-page="#credits"> <span><img width="24px" height="24px"
+                            src="assest/svg/img/credit-card-svgrepo-com.png" alt=""></span>بطاقات الدفع</li>
+            </ul>
+            <div class=" routee mt-3 logout " data-page="#edit-profile"><span><img width="24px" height="24px"
+                        src="assest/svg/img/logout-svgrepo-com.png" alt=""></span> تسجيل الخروج
+            </div>
+        </div>
+        <!-- كلمة المرور-->
+    </div>
+    <!--استرجاع كلمة السر-->
+    <div class="modal  fade" id="forgotpass" tabindex="-1" aria-labelledby="forgotpassword" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header d-block" style="border: none;">
+                    <button type="button" class="btn-close"
+                        style="margin: 0; background-color: gray; border-radius: 50%; color: white; margin-bottom: 30px;"
+                        data-bs-dismiss="modal" aria-label="Close"></button>
+                    <h1 class="modal-title " style="font-size: 30px;" id="exampleModalLabel"> استرجاع كلمة السر</h1>
+                    <p style="color: #7D7D8D; font-size: 16px;">قم بإدخال رقم الهاتف المسجل به علي التطبيق ليصلك كود
+                        التأكيد من خلال رسالة نصية</p>
+                </div>
+                <div class="modal-body">
+                    <form action="">
+                        <div class="modal-input" style="">
+                            <input type="text" placeholder="رقم الهاتف">
+                        </div>
+
+                        <button type="submit" class="login-btn" id="to-otb" data-bs-toggle="modal"
+                            data-bs-target="#otb-modal"> الإرسال والمتابعة</button>
+                    </form>
+
+
+                    <div style="margin-top: 50px;">
+                        <p data-bs-dismiss="modal" aria-label="Close" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal">العودة لتسجيل الدخول</p>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!--تسجيل الدخول-->
+    <div class="modal  fade " id="exampleModal" tabindex="-1" aria-labelledby="otb-modal" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header d-block" style="border: none;">
+                    <button type="button" class="btn-close"
+                        style="margin: 0; background-color: gray; border-radius: 50%; color: white; margin-bottom: 30px;"
+                        data-bs-dismiss="modal" aria-label="Close"></button>
+                    <h1 class="modal-title " style="font-size: 30px;" id="exampleModalLabel">مرحبا بك من جديد</h1>
+                    <p style="color: #7D7D8D; font-size: 16px;">يرجي تسجيل الدخول للمتابعة</p>
+                </div>
+                <div class="modal-body">
+                    <form action="">
+                        <div class="modal-input" style="">
+                            <input type="text" placeholder="البريد الالكتروني">
+                        </div>
+                        <div class="modal-input" style="position: relative;  margin-top: 20px;">
+                            <input type="password" placeholder="كلمة المرور">
+                            <span id="showPass" class="eye"><img src="assest/svg/img/vuesax-bold-eye.png" alt=""></span>
+                        </div>
+                        <div style="text-align: end; margin-top: 8px;"><a data-bs-dismiss="modal" aria-label="Close"
+                                data-bs-toggle="modal" data-bs-target="#forgotpass  ">هل
+                                نسيت كلمة السر؟</a></div>
+                        <button type="submit" class="login-btn">تسجيل الدخول</button>
+                    </form>
+
+                    <div class="middle-border">
+                        <p></p>
+                        <span>أو</span>
+                        <p></p>
+                    </div>
+                    <div class="login-google">
+                        <a href="">
+                            <p>
+                                <span><img src="/assest/svg/img/gmail icon.png" alt=""></span>
+                                تسجيل بواسطة جوجل
+                            </p>
+                        </a>
+                    </div>
+                    <div class="login-facebook">
+                        <a href="">
+                            <p>
+                                <span><img src="/assest/svg/img/svgexport-10 (2).png" alt=""></span>
+                                تسجيل بواسطة فيسبوك
+                            </p>
+                        </a>
+                    </div>
+                    <div style="margin-top: 50px;">
+                        <p>لا يوجد لديك حساب ؟<span style="cursor: pointer; color: #4835FC; margin-right: 5px;">تسجيل
+                                حساب جديد</span></p>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!--تسجيل حساب جديد-->
+    <div class="modal  fade " id="new-account" tabindex="-1" aria-labelledby="new-account" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header d-block" style="border: none;">
+                    <button type="button" class="btn-close"
+                        style="margin: 0; background-color: gray; border-radius: 50%; color: white; margin-bottom: 30px;"
+                        data-bs-dismiss="modal" aria-label="Close"></button>
+                    <h1 class="modal-title " style="font-size: 30px;" id="exampleModalLabel"> تسجيل حساب جديد </h1>
+                    <p style="color: #7D7D8D; font-size: 16px;"> من فضلك ، قم بإدخال البيانات المطلوبة منك لإنشاء حساب
+                        جديد </p>
+                </div>
+                <div class="modal-body">
+                    <form action="">
+                        <div class="modal-input mb-4" style="">
+                            <input type="text" placeholder="اسم المستخدم">
+                        </div>
+                        <div class="modal-input mb-4" style="">
+                            <input type="text" placeholder="رقم الهاتف">
+                        </div>
+                        <div class="modal-input mb-4" style="">
+                            <input type="text" placeholder="البريد الالكتروني (اختياري) ">
+                        </div>
+                        <div class="modal-input mb-4" style="position: relative;  margin-top: 20px;">
+                            <input type="password" placeholder="كلمة المرور">
+                            <span id="showPass" class="eye"><img src="assest/svg/img/vuesax-bold-eye.png" alt=""></span>
+                        </div>
+                        <div class="modal-input mb-4" style="position: relative;  margin-top: 20px;">
+                            <input type="password" placeholder="تأكيد كلمة السر ">
+                            <span id="showPass" class="eye"><img src="assest/svg/img/vuesax-bold-eye.png" alt=""></span>
+                        </div>
+                        <div style="text-align: end;"><a data-bs-dismiss="modal" aria-label="Close"
+                                data-bs-toggle="modal" data-bs-target="#forgotpass  ">هل
+                                نسيت كلمة السر؟</a></div>
+                        <button type="submit" class="login-btn">تسجيل الدخول</button>
+                    </form>
+                    <div class="mt-2">
+                        <p style="font-size: 14px; color: #4835FC;">بقيامك بالتسجيل لدينا فأنت توافق علي الشروط والاحكام
+                            و سياسات الخصوصية</p>
+                    </div>
+
+                    <div style="margin-top: 50px;">
+                        <p>لديك حساب ؟<span style="cursor: pointer; color: #4835FC; margin-right: 5px;"> تسجيل دخول الآن
+                            </span></p>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!--رمز التفعيل-->
+    <div class="modal  fade " id="otb-modal" tabindex="-1" aria-labelledby="otb-modal" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header d-block" style="border: none;">
+                    <button type="button" class="btn-close"
+                        style="margin: 0; background-color: gray; border-radius: 50%; color: white; margin-bottom: 30px;"
+                        data-bs-dismiss="modal" aria-label="Close"></button>
+                    <h1 class="modal-title " style="font-size: 30px; color: black;" id="exampleModalLabel"> رمز التفعيل
+                    </h1>
+                    <p style="color: #7D7D8D; font-size: 16px;">يرجي التأكد من الرمز المرسل إليك علي الرقم 966632015
+                        الخاص بك للمتابعة وتغيير كلمة السر</p>
+                </div>
+                <div class="modal-body">
+                    <div class="flex justify-center input-contianer" style="direction: ltr;" id="OTPInput">
+                    </div>
+                    <!-- Change this name attribute to mach your form submission parameters. Make sure you update the id in the javascript code if any changes are made to the id attribute -->
+                    <input hidden id="otp" name="otp" value="">
+                    <button class="otb-submit" id="otpSubmit" data-bs-toggle="modal" data-bs-target="#new-pass  ">تأكيد
+                    </button>
+
+
+                    <div style="margin-top: 50px;">
+                        <p data-bs-dismiss="modal" aria-label="Close" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal">العودة لتسجيل الدخول</p>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!--كلمة سر جديدة-->
+    <div class="modal  fade " id="new-pass" tabindex="-1" aria-labelledby="new-pass" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header d-block" style="border: none;">
+                    <button type="button" class="btn-close"
+                        style="margin: 0; background-color: gray; border-radius: 50%; color: white; margin-bottom: 30px;"
+                        data-bs-dismiss="modal" aria-label="Close"></button>
+                    <h1 class="modal-title " style="font-size: 30px;" id="exampleModalLabel"> إنشاء كلمة السر الجديدة
+                    </h1>
+                    <p style="color: #7D7D8D; font-size: 16px;">قم بإنشاء كلمة السر الجديدة وحاول استخدام الرموز
+                        والأرقام لتقوية كلمة المرور والأبتعاد عن كلمات المرور القديمة </p>
+                </div>
+                <div class="modal-body">
+                    <form action="">
+                        <div class="modal-input" style="position: relative;  margin-top: 20px;">
+                            <input type="password" placeholder="كلمة المرور">
+                            <span id="showPass" class="eye"><img src="assest/svg/img/vuesax-bold-eye.png" alt=""></span>
+                        </div>
+                        <div class="modal-input" style="position: relative;  margin-top: 20px;">
+                            <input type="password" placeholder=" تأكيد كلمة السر الجديدة">
+                            <span id="showPass" class="eye"><img src="assest/svg/img/vuesax-bold-eye.png" alt=""></span>
+                        </div>
+
+                        <button type="submit" class="login-btn"> حفظ</button>
+                    </form>
+
+
+                    <div style="margin-top: 50px;">
+                        <p data-bs-dismiss="modal" aria-label="Close" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal">العودة لتسجيل الدخول</p>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!--الخطط والاسعار-->
+    <div class="modal  fade " id="plan" tabindex="-1" aria-labelledby="plan" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content p-2 " style="background-color: #F8F9FD;">
+                <div class="modal-header d-block" style="border: none;">
+                    <button type="button" class="btn-close"
+                        style="margin: 0; background-color: gray; border-radius: 50%; color: white; margin-bottom: 30px;"
+                        data-bs-dismiss="modal" aria-label="Close"></button>
+                    <h1 class="modal-title " style="font-size: 30px;" id="exampleModalLabel"> الخطط والأسعار </h1>
+                    <p style="color: #7D7D8D; font-size: 16px;">قم باختيار الخطة المناسبة لك مقابل السعر واحصل علي
+                        خصومات تصل إلي 50% للباقات المتاحة </p>
+                </div>
+                <div class="modal-body ">
+                    <div class="punch p-2 prices-container ">
+                        <div class="price-sub d-flex justify-content-between punch p-3"
+                            style="background-color: #F8F9FD; border-radius: 8px;">
+                            <div class="num-sessions">
+                                <p style="margin: 0; font-family:'monBold'; font-size: 18px;">03</p>
+                                <p style="margin: 0;">جلسات</p>
+                            </div>
+                            <div class="time-price">
+                                <span style="margin: 0; font-family:'monBold'; font-size: 26px;">12$</span>
+                                <span>/أسبوعياً</span>
+                            </div>
+                        </div>
+                        <div class="sub-now">
+                            اشترك الآن
+                        </div>
+                    </div>
+                    <div class="punch p-2 prices-container ">
+                        <div class="price-sub d-flex justify-content-between punch p-3"
+                            style="background-color: #F8F9FD; border-radius: 8px;">
+                            <div class="num-sessions">
+                                <p style="margin: 0; font-family:'monBold'; font-size: 18px;">03</p>
+                                <p style="margin: 0;">جلسات</p>
+                            </div>
+                            <div class="time-price">
+                                <span style="margin: 0; font-family:'monBold'; font-size: 26px;">12$</span>
+                                <span>/أسبوعياً</span>
+                            </div>
+                        </div>
+                        <div class="sub-now">
+                            اشترك الآن
+                        </div>
+                    </div>
+                    <div class="punch p-2 prices-container ">
+                        <div class="price-sub d-flex justify-content-between punch p-3"
+                            style="background-color: #F8F9FD; border-radius: 8px;">
+                            <div class="num-sessions">
+                                <p style="margin: 0; font-family:'monBold'; font-size: 18px;">03</p>
+                                <p style="margin: 0;">جلسات</p>
+                            </div>
+                            <div class="time-price">
+                                <span style="margin: 0; font-family:'monBold'; font-size: 26px;">12$</span>
+                                <span>/أسبوعياً</span>
+                            </div>
+                        </div>
+                        <div class="sub-now">
+                            اشترك الآن
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"
+        integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/3.4.0/jquery-migrate.min.js"
+        integrity="sha512-QDsjSX1mStBIAnNXx31dyvw4wVdHjonOwrkaIhpiIlzqGUCdsI62MwQtHpJF+Npy2SmSlGSROoNWQCOFpqbsOg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+
+    <script src="js/stars-rating.js"></script>
+    <script src="js/profile.js"></script>
+    <script src="js/showpass.js">
+
+    </script>
+
+</body>
+
+</html>

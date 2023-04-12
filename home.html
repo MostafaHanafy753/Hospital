@@ -1,0 +1,1732 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/home.css">
+</head>
+
+<body dir="rtl">
+    <!--nav-->
+    <nav class="navbar fixed-top navbar-expand-lg  mainNav">
+        <div class="container d-flex">
+            <a class="navbar-brand logo" href="#"><img src="assest/images/logo.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
+                aria-controls="offcanvasRight">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
+                <ul class="navbar-nav nav-links">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">من نحن</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">اتصل بنا</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">انضم إلينا</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " style="cursor: pointer;"> <button type="button "
+                                style="border:none; background-color:transparent;" class="" data-bs-toggle="modal"
+                                data-bs-target="#plan">
+                                <span><img src="/assest/svg/img/svgexport-7 (1).png" alt=""></span>الخطط
+                                والأسعار
+                            </button></a>
+                    </li>
+                </ul>
+                <div class="nav-btns d-flex align-items-center">
+
+                    <div class="country-nav" style="margin-left: 5px;">
+                        <div class="dropdown ">
+                            <button class="cout  dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false"> <img width="38px" height="25px" src="assest/svg/img/saudi-arabia-svgrepo-com.png" alt="">
+                                السعودية
+                            </button>
+                            <ul class="dropdown-menu dropdown-menu-light">
+                              <li><a class="dropdown-item d-flex justify-content-start active" href="#"> <img width="38px" height="25px" src="assest/svg/img/saudi-arabia-svgrepo-com.png" alt="">   السعودية</a></li>
+                              <li><a class="dropdown-item   d-flex justify-content-start " href="#" style="text-align: right;"> <img width="38px" height="25px" src="assest/svg/img/saudi-arabia-svgrepo-com.png" alt="">   مصر </a></li>
+                              <li><a class="dropdown-item  d-flex justify-content-start " href="#"> <img width="38px" height="25px" src="assest/svg/img/saudi-arabia-svgrepo-com.png" alt="">    السعودية  </a></li>
+
+                            </ul>
+                          </div>
+                    </div>
+                    <div id="lange" style="cursor: pointer; color: #4835FC;"><img src="assest/svg/img/global-bulk.png" alt=""> <span>EN</span></div>
+                    <div class="btn-group">
+                        <div class="login" data-bs-toggle="modal" data-bs-target="#exampleModal">الدخول</div>
+                        <div class="join-us" data-bs-toggle="modal" data-bs-target="#new-account">انضم الآن</div>
+                    </div>
+                    <div class="profile align-items-center " style="cursor: pointer;">
+                        <img src="/assest/images/NoPath - Copy (31).png" alt="">
+                        <p style="margin: 0; margin-right: 4px;">مرحباً بك يا <spann
+                                style="color: #4835FC;">إبراهيم</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!---nav -end-->
+
+    <!-- home banner start-->
+    <section class="home-banner">
+
+        <div class="container-fluid p-0 position-relative">
+            <img src="assest/images/homeBanner.png" width="100%" alt="">
+            <div class="container-edited home">
+                <div class=" home-card ">
+                    <div class="card-buttons d-flex  position-relative row justify-content-lg-center">
+                        <div class="d-flex position-relative row col-lg-5 justify-content-center p-0">
+                            <div
+                                class="card-button col-sm-6 col d-flex flex-column justify-content-center justify-content-sm-between  align-items-center">
+                                <span><img src="/assest/svg/img/vuesax-outline-hospital.png" alt=""></span>
+                                <p>حجز مكالمة فديو</p>
+                            </div>
+                            <div
+                                class="card-button col-sm-6 col d-flex flex-column justify-content-center align-items-center">
+                                <span><img src="assest/svg/img/video-outline.png" alt=""></span>
+                                <p>حجز كشف جديد</p>
+                            </div>
+                            <div class="moving-border rounded-pill">
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="search-form">
+                        <form action="" class="d-flex row align-items-center">
+                            <div class="inputs row col-lg-11 ">
+                                <div class="input-name col-lg-3 col-md-6 ">
+                                    <label for="">الاسم </label>
+                                    <input type="text" placeholder="اسم الطبيب">
+
+                                </div>
+                                <div class="input-country col-lg-3 col-md-6">
+                                    <label for="">التخصص</label>
+                                    <div style="position: relative; margin-top: 15px;">
+                                        <select name="country" style="margin: 0;">
+
+                                            <option value="MX">المكسيك</option>
+                                            <option value="SA" selected>اختر التخصص</option>
+                                            <option value="GB">المملكة المتحدة</option>
+                                            <option value="NO">النرويج</option>
+                                            <option value="AT">النمسا</option>
+
+
+                                        </select>
+                                        <span
+                                            style=""><img
+                                                width="20px" height="20px" src="/assest/svg/img/down-arrow-svgrepo-com.png"
+                                                alt=""></span>
+                                    </div>
+                                </div>
+                                <div class="input-country col-lg-3 col-md-6">
+                                    <label for="">الدولة (الجنسية)</label>
+                                    <div style="position: relative; margin-top: 15px;">
+                                        <select name="country" style="margin: 0;">
+                                            <option value="" selected> اختر الدولة</option>
+                                            <option value="AW">آروبا</option>
+                                            <option value="AZ">أذربيجان</option>
+                                            <option value="AM">أرمينيا</option>
+                                            <option value="ES">أسبانيا</option>
+                                            <option value="AU">أستراليا</option>
+                                            <option value="AF">أفغانستان</option>
+                                            <option value="AL">ألبانيا</option>
+                                            <option value="DE">ألمانيا</option>
+                                            <option value="AG">أنتيجوا وبربودا</option>
+                                            <option value="AO">أنجولا</option>
+
+                                            <option value="PK">باكستان</option>
+                                            <option value="PW">بالاو</option>
+                                            <option value="BW">بتسوانا</option>
+                                            <option value="PN">بتكايرن</option>
+                                            <option value="BB">بربادوس</option>
+                                            <option value="BM">برمودا</option>
+                                            <option value="BN">بروناي</option>
+                                            <option value="BE">بلجيكا</option>
+                                            <option value="BG">بلغاريا</option>
+                                            <option value="BZ">بليز</option>
+                                            <option value="BD">بنجلاديش</option>
+                                            <option value="PA">بنما</option>
+                                            <option value="BJ">بنين</option>
+                                            <option value="BT">بوتان</option>
+                                            <option value="PR">بورتوريكو</option>
+                                            <option value="BF">بوركينا فاسو</option>
+                                            <option value="BI">بوروندي</option>
+                                            <option value="PL">بولندا</option>
+                                            <option value="BO">بوليفيا</option>
+                                            <option value="PF">بولينيزيا الفرنسية</option>
+                                            <option value="PE">بيرو</option>
+                                            <option value="TZ">تانزانيا</option>
+                                            <option value="TH">تايلند</option>
+                                            <option value="TW">تايوان</option>
+                                            <option value="TM">تركمانستان</option>
+                                            <option value="TR">تركيا</option>
+                                            <option value="TT">ترينيداد وتوباغو</option>
+                                            <option value="TD">تشاد</option>
+                                            <option value="TG">توجو</option>
+                                            <option value="TV">توفالو</option>
+                                            <option value="TK">توكيلو</option>
+                                            <option value="TO">تونجا</option>
+                                            <option value="TN">تونس</option>
+                                            <option value="TL">تيمور الشرقية</option>
+                                            <option value="JM">جامايكا</option>
+                                            <option value="GI">جبل طارق</option>
+                                            <option value="GD">جرينادا</option>
+                                            <option value="GL">جرينلاند</option>
+                                            <option value="AX">جزر أولان</option>
+                                            <option value="AN">جزر الأنتيل الهولندية</option>
+                                            <option value="TC">جزر الترك وجايكوس</option>
+                                            <option value="KM">جزر القمر</option>
+                                            <option value="KY">جزر الكايمن</option>
+                                            <option value="MH">جزر المارشال</option>
+                                            <option value="MV">جزر الملديف</option>
+                                            <option value="UM">جزر الولايات المتحدة البعيدة الصغيرة</option>
+                                            <option value="SB">جزر سليمان</option>
+                                            <option value="FO">جزر فارو</option>
+                                            <option value="VI">جزر فرجين الأمريكية</option>
+                                            <option value="VG">جزر فرجين البريطانية</option>
+                                            <option value="FK">جزر فوكلاند</option>
+                                            <option value="CK">جزر كوك</option>
+                                            <option value="CC">جزر كوكوس</option>
+                                            <option value="MP">جزر ماريانا الشمالية</option>
+                                            <option value="WF">جزر والس وفوتونا</option>
+                                            <option value="CX">جزيرة الكريسماس</option>
+                                            <option value="BV">جزيرة بوفيه</option>
+                                            <option value="IM">جزيرة مان</option>
+                                            <option value="NF">جزيرة نورفوك</option>
+                                            <option value="HM">جزيرة هيرد وماكدونالد</option>
+                                            <option value="CF">جمهورية افريقيا الوسطى</option>
+                                            <option value="CZ">جمهورية التشيك</option>
+                                            <option value="DO">جمهورية الدومينيك</option>
+                                            <option value="CD">جمهورية الكونغو الديمقراطية</option>
+                                            <option value="ZA">جمهورية جنوب افريقيا</option>
+                                            <option value="GT">جواتيمالا</option>
+                                            <option value="GP">جوادلوب</option>
+                                            <option value="GU">جوام</option>
+                                            <option value="GE">جورجيا</option>
+                                            <option value="GS">جورجيا الجنوبية وجزر ساندويتش الجنوبية</option>
+                                            <option value="DJ">جيبوتي</option>
+                                            <option value="JE">جيرسي</option>
+                                            <option value="DM">دومينيكا</option>
+                                            <option value="RW">رواندا</option>
+                                            <option value="RU">روسيا</option>
+                                            <option value="BY">روسيا البيضاء</option>
+                                            <option value="RO">رومانيا</option>
+                                            <option value="RE">روينيون</option>
+                                            <option value="ZM">زامبيا</option>
+                                            <option value="ZW">زيمبابوي</option>
+                                            <option value="CI">ساحل العاج</option>
+                                            <option value="WS">ساموا</option>
+                                            <option value="AS">ساموا الأمريكية</option>
+                                            <option value="SM">سان مارينو</option>
+                                            <option value="PM">سانت بيير وميكولون</option>
+                                            <option value="VC">سانت فنسنت وغرنادين</option>
+                                            <option value="KN">سانت كيتس ونيفيس</option>
+                                            <option value="LC">سانت لوسيا</option>
+                                            <option value="MF">سانت مارتين</option>
+                                            <option value="SH">سانت هيلنا</option>
+                                            <option value="ST">ساو تومي وبرينسيبي</option>
+                                            <option value="LK">سريلانكا</option>
+                                            <option value="SJ">سفالبارد وجان مايان</option>
+                                            <option value="SK">سلوفاكيا</option>
+                                            <option value="SI">سلوفينيا</option>
+                                            <option value="SG">سنغافورة</option>
+                                            <option value="SZ">سوازيلاند</option>
+                                            <option value="SY">سوريا</option>
+                                            <option value="SR">سورينام</option>
+                                            <option value="CH">سويسرا</option>
+                                            <option value="SL">سيراليون</option>
+                                            <option value="SC">سيشل</option>
+                                            <option value="CL">شيلي</option>
+                                            <option value="RS">صربيا</option>
+                                            <option value="CS">صربيا والجبل الأسود</option>
+                                            <option value="TJ">طاجكستان</option>
+                                            <option value="OM">عمان</option>
+                                            <option value="GM">غامبيا</option>
+                                            <option value="GH">غانا</option>
+                                            <option value="GF">غويانا</option>
+                                            <option value="GY">غيانا</option>
+                                            <option value="GN">غينيا</option>
+                                            <option value="GQ">غينيا الاستوائية</option>
+                                            <option value="GW">غينيا بيساو</option>
+                                            <option value="VU">فانواتو</option>
+                                            <option value="FR">فرنسا</option>
+                                            <option value="PS">فلسطين</option>
+                                            <option value="VE">فنزويلا</option>
+                                            <option value="FI">فنلندا</option>
+                                            <option value="VN">فيتنام</option>
+                                            <option value="FJ">فيجي</option>
+                                            <option value="CY">قبرص</option>
+                                            <option value="KG">قرغيزستان</option>
+                                            <option value="QA">قطر</option>
+                                            <option value="KZ">كازاخستان</option>
+                                            <option value="NC">كاليدونيا الجديدة</option>
+                                            <option value="HR">كرواتيا</option>
+                                            <option value="KH">كمبوديا</option>
+                                            <option value="CA">كندا</option>
+                                            <option value="CU">كوبا</option>
+                                            <option value="KR">كوريا الجنوبية</option>
+                                            <option value="KP">كوريا الشمالية</option>
+                                            <option value="CR">كوستاريكا</option>
+                                            <option value="CO">كولومبيا</option>
+                                            <option value="KI">كيريباتي</option>
+                                            <option value="KE">كينيا</option>
+                                            <option value="LV">لاتفيا</option>
+                                            <option value="LA">لاوس</option>
+                                            <option value="LB">لبنان</option>
+                                            <option value="LU">لوكسمبورج</option>
+                                            <option value="LY">ليبيا</option>
+                                            <option value="LR">ليبيريا</option>
+                                            <option value="LT">ليتوانيا</option>
+                                            <option value="LI">ليختنشتاين</option>
+                                            <option value="LS">ليسوتو</option>
+                                            <option value="MQ">مارتينيك</option>
+                                            <option value="MO">ماكاو الصينية</option>
+                                            <option value="MT">مالطا</option>
+                                            <option value="ML">مالي</option>
+                                            <option value="MY">ماليزيا</option>
+                                            <option value="YT">مايوت</option>
+                                            <option value="MG">مدغشقر</option>
+                                            <option value="EG">مصر</option>
+                                            <option value="MK">مقدونيا</option>
+                                            <option value="MW">ملاوي</option>
+                                            <option value="ZZ">منطقة غير معرفة</option>
+                                            <option value="MN">منغوليا</option>
+                                            <option value="MR">موريتانيا</option>
+                                            <option value="MU">موريشيوس</option>
+                                            <option value="MZ">موزمبيق</option>
+                                            <option value="MD">مولدافيا</option>
+                                            <option value="MC">موناكو</option>
+                                            <option value="MS">مونتسرات</option>
+                                            <option value="MM">ميانمار</option>
+                                            <option value="FM">ميكرونيزيا</option>
+                                            <option value="NA">ناميبيا</option>
+                                            <option value="NR">نورو</option>
+                                            <option value="NP">نيبال</option>
+                                            <option value="NG">نيجيريا</option>
+                                            <option value="NI">نيكاراجوا</option>
+                                            <option value="NZ">نيوزيلاندا</option>
+
+                                        </select>
+                                        <span
+                                            style=""><img
+                                                width="20px" height="20px" src="/assest/svg/img/down-arrow-svgrepo-com.png"
+                                                alt=""></span>
+                                    </div>
+                                </div>
+                                <div class="input-country col-lg-3 col-md-6">
+                                    <label for=""> الفرع</label>
+                                    <div style="position: relative; margin-top: 15px;">
+                                        <select name="country" style="margin: 0;">
+
+                                            <option value="AW">آروبا</option>
+                                            <option value="AZ">أذربيجان</option>
+                                            <option value="AM">أرمينيا</option>
+                                            <option value="ES">أسبانيا</option>
+                                            <option value="AU">أستراليا</option>
+                                            <option value="AF">أفغانستان</option>
+                                            <option value="AL">ألبانيا</option>
+                                            <option value="DE">ألمانيا</option>
+                                            <option value="AG">أنتيجوا وبربودا</option>
+                                            <option value="AO">أنجولا</option>
+                                            <option value="AI">أنجويلا</option>
+                                            <option value="AD">أندورا</option>
+                                            <option value="UY">أورجواي</option>
+                                            <option value="UZ">أوزبكستان</option>
+                                            <option value="UG">أوغندا</option>
+                                            <option value="UA">أوكرانيا</option>
+                                            <option value="IE">أيرلندا</option>
+                                            <option value="IS">أيسلندا</option>
+                                            <option value="ET">اثيوبيا</option>
+                                            <option value="ER">اريتريا</option>
+                                            <option value="EE">استونيا</option>
+                                            <option value="IL">اسرائيل</option>
+                                            <option value="AR">الأرجنتين</option>
+                                            <option value="JO">الأردن</option>
+                                            <option value="EC">الاكوادور</option>
+                                            <option value="AE">الامارات العربية المتحدة</option>
+                                            <option value="BS">الباهاما</option>
+                                            <option value="BH">البحرين</option>
+                                            <option value="BR">البرازيل</option>
+                                            <option value="PT">البرتغال</option>
+                                            <option value="BA">البوسنة والهرسك</option>
+                                            <option value="GA">الجابون</option>
+                                            <option value="ME">الجبل الأسود</option>
+                                            <option value="DZ">الجزائر</option>
+                                            <option value="DK">الدانمرك</option>
+                                            <option value="CV">الرأس الأخضر</option>
+                                            <option value="SV">السلفادور</option>
+                                            <option value="SN">السنغال</option>
+                                            <option value="SD">السودان</option>
+                                            <option value="SE">السويد</option>
+                                            <option value="EH">الصحراء الغربية</option>
+                                            <option value="SO">الصومال</option>
+                                            <option value="CN">الصين</option>
+                                            <option value="IQ">العراق</option>
+                                            <option value="VA">الفاتيكان</option>
+                                            <option value="PH">الفيلبين</option>
+                                            <option value="AQ">القطب الجنوبي</option>
+                                            <option value="CM">الكاميرون</option>
+                                            <option value="CG">الكونغو - برازافيل</option>
+                                            <option value="KW">الكويت</option>
+                                            <option value="HU">المجر</option>
+                                            <option value="IO">المحيط الهندي البريطاني</option>
+                                            <option value="MA">المغرب</option>
+                                            <option value="TF">المقاطعات الجنوبية الفرنسية</option>
+                                            <option value="MX">المكسيك</option>
+                                            <option value="SA" selected>اختر الفرع</option>
+                                            <option value="GB">المملكة المتحدة</option>
+                                            <option value="NO">النرويج</option>
+                                            <option value="AT">النمسا</option>
+                                            <option value="NE">النيجر</option>
+                                            <option value="IN">الهند</option>
+                                            <option value="US">الولايات المتحدة الأمريكية</option>
+                                            <option value="JP">اليابان</option>
+                                            <option value="YE">اليمن</option>
+                                            <option value="GR">اليونان</option>
+                                            <option value="ID">اندونيسيا</option>
+                                            <option value="IR">ايران</option>
+                                            <option value="IT">ايطاليا</option>
+                                            <option value="PG">بابوا غينيا الجديدة</option>
+                                            <option value="PY">باراجواي</option>
+                                            <option value="PK">باكستان</option>
+                                            <option value="PW">بالاو</option>
+                                            <option value="BW">بتسوانا</option>
+                                            <option value="PN">بتكايرن</option>
+                                            <option value="BB">بربادوس</option>
+                                            <option value="BM">برمودا</option>
+                                            <option value="BN">بروناي</option>
+                                            <option value="BE">بلجيكا</option>
+                                            <option value="BG">بلغاريا</option>
+                                            <option value="BZ">بليز</option>
+                                            <option value="BD">بنجلاديش</option>
+                                            <option value="PA">بنما</option>
+                                            <option value="BJ">بنين</option>
+                                            <option value="BT">بوتان</option>
+                                            <option value="PR">بورتوريكو</option>
+                                            <option value="BF">بوركينا فاسو</option>
+                                            <option value="BI">بوروندي</option>
+                                            <option value="PL">بولندا</option>
+                                            <option value="BO">بوليفيا</option>
+                                            <option value="PF">بولينيزيا الفرنسية</option>
+                                            <option value="PE">بيرو</option>
+                                            <option value="TZ">تانزانيا</option>
+                                            <option value="TH">تايلند</option>
+                                            <option value="TW">تايوان</option>
+                                            <option value="TM">تركمانستان</option>
+                                            <option value="TR">تركيا</option>
+                                            <option value="TT">ترينيداد وتوباغو</option>
+                                            <option value="TD">تشاد</option>
+                                            <option value="TG">توجو</option>
+                                            <option value="TV">توفالو</option>
+                                            <option value="TK">توكيلو</option>
+                                            <option value="TO">تونجا</option>
+                                            <option value="TN">تونس</option>
+                                            <option value="TL">تيمور الشرقية</option>
+                                            <option value="JM">جامايكا</option>
+                                            <option value="GI">جبل طارق</option>
+                                            <option value="GD">جرينادا</option>
+                                            <option value="GL">جرينلاند</option>
+                                            <option value="AX">جزر أولان</option>
+                                            <option value="AN">جزر الأنتيل الهولندية</option>
+                                            <option value="TC">جزر الترك وجايكوس</option>
+                                            <option value="KM">جزر القمر</option>
+                                            <option value="KY">جزر الكايمن</option>
+                                            <option value="MH">جزر المارشال</option>
+                                            <option value="MV">جزر الملديف</option>
+                                            <option value="UM">جزر الولايات المتحدة البعيدة الصغيرة</option>
+                                            <option value="SB">جزر سليمان</option>
+                                            <option value="FO">جزر فارو</option>
+                                            <option value="VI">جزر فرجين الأمريكية</option>
+                                            <option value="VG">جزر فرجين البريطانية</option>
+                                            <option value="FK">جزر فوكلاند</option>
+                                            <option value="CK">جزر كوك</option>
+                                            <option value="CC">جزر كوكوس</option>
+                                            <option value="MP">جزر ماريانا الشمالية</option>
+                                            <option value="WF">جزر والس وفوتونا</option>
+                                            <option value="CX">جزيرة الكريسماس</option>
+                                            <option value="BV">جزيرة بوفيه</option>
+                                            <option value="IM">جزيرة مان</option>
+                                            <option value="NF">جزيرة نورفوك</option>
+                                            <option value="HM">جزيرة هيرد وماكدونالد</option>
+                                            <option value="CF">جمهورية افريقيا الوسطى</option>
+                                            <option value="CZ">جمهورية التشيك</option>
+                                            <option value="DO">جمهورية الدومينيك</option>
+                                            <option value="CD">جمهورية الكونغو الديمقراطية</option>
+                                            <option value="ZA">جمهورية جنوب افريقيا</option>
+                                            <option value="GT">جواتيمالا</option>
+                                            <option value="GP">جوادلوب</option>
+                                            <option value="GU">جوام</option>
+                                            <option value="GE">جورجيا</option>
+                                            <option value="GS">جورجيا الجنوبية وجزر ساندويتش الجنوبية</option>
+                                            <option value="DJ">جيبوتي</option>
+                                            <option value="JE">جيرسي</option>
+                                            <option value="DM">دومينيكا</option>
+                                            <option value="RW">رواندا</option>
+                                            <option value="RU">روسيا</option>
+                                            <option value="BY">روسيا البيضاء</option>
+                                            <option value="RO">رومانيا</option>
+                                            <option value="RE">روينيون</option>
+                                            <option value="ZM">زامبيا</option>
+                                            <option value="ZW">زيمبابوي</option>
+                                            <option value="CI">ساحل العاج</option>
+                                            <option value="WS">ساموا</option>
+                                            <option value="AS">ساموا الأمريكية</option>
+                                            <option value="SM">سان مارينو</option>
+                                            <option value="PM">سانت بيير وميكولون</option>
+                                            <option value="VC">سانت فنسنت وغرنادين</option>
+                                            <option value="KN">سانت كيتس ونيفيس</option>
+                                            <option value="LC">سانت لوسيا</option>
+                                            <option value="MF">سانت مارتين</option>
+                                            <option value="SH">سانت هيلنا</option>
+                                            <option value="ST">ساو تومي وبرينسيبي</option>
+                                            <option value="LK">سريلانكا</option>
+                                            <option value="SJ">سفالبارد وجان مايان</option>
+                                            <option value="SK">سلوفاكيا</option>
+                                            <option value="SI">سلوفينيا</option>
+                                            <option value="SG">سنغافورة</option>
+                                            <option value="SZ">سوازيلاند</option>
+                                            <option value="SY">سوريا</option>
+                                            <option value="SR">سورينام</option>
+                                            <option value="CH">سويسرا</option>
+                                            <option value="SL">سيراليون</option>
+                                            <option value="SC">سيشل</option>
+                                            <option value="CL">شيلي</option>
+                                            <option value="RS">صربيا</option>
+                                            <option value="CS">صربيا والجبل الأسود</option>
+                                            <option value="TJ">طاجكستان</option>
+                                            <option value="OM">عمان</option>
+                                            <option value="GM">غامبيا</option>
+                                            <option value="GH">غانا</option>
+                                            <option value="GF">غويانا</option>
+                                            <option value="GY">غيانا</option>
+                                            <option value="GN">غينيا</option>
+                                            <option value="GQ">غينيا الاستوائية</option>
+                                            <option value="GW">غينيا بيساو</option>
+                                            <option value="VU">فانواتو</option>
+                                            <option value="FR">فرنسا</option>
+                                            <option value="PS">فلسطين</option>
+                                            <option value="VE">فنزويلا</option>
+                                            <option value="FI">فنلندا</option>
+                                            <option value="VN">فيتنام</option>
+                                            <option value="FJ">فيجي</option>
+                                            <option value="CY">قبرص</option>
+                                            <option value="KG">قرغيزستان</option>
+                                            <option value="QA">قطر</option>
+                                            <option value="KZ">كازاخستان</option>
+                                            <option value="NC">كاليدونيا الجديدة</option>
+                                            <option value="HR">كرواتيا</option>
+                                            <option value="KH">كمبوديا</option>
+                                            <option value="CA">كندا</option>
+                                            <option value="CU">كوبا</option>
+                                            <option value="KR">كوريا الجنوبية</option>
+                                            <option value="KP">كوريا الشمالية</option>
+                                            <option value="CR">كوستاريكا</option>
+                                            <option value="CO">كولومبيا</option>
+                                            <option value="KI">كيريباتي</option>
+                                            <option value="KE">كينيا</option>
+                                            <option value="LV">لاتفيا</option>
+                                            <option value="LA">لاوس</option>
+                                            <option value="LB">لبنان</option>
+                                            <option value="LU">لوكسمبورج</option>
+                                            <option value="LY">ليبيا</option>
+                                            <option value="LR">ليبيريا</option>
+                                            <option value="LT">ليتوانيا</option>
+                                            <option value="LI">ليختنشتاين</option>
+                                            <option value="LS">ليسوتو</option>
+                                            <option value="MQ">مارتينيك</option>
+                                            <option value="MO">ماكاو الصينية</option>
+                                            <option value="MT">مالطا</option>
+                                            <option value="ML">مالي</option>
+                                            <option value="MY">ماليزيا</option>
+                                            <option value="YT">مايوت</option>
+                                            <option value="MG">مدغشقر</option>
+                                            <option value="EG">مصر</option>
+                                            <option value="MK">مقدونيا</option>
+                                            <option value="MW">ملاوي</option>
+                                            <option value="ZZ">منطقة غير معرفة</option>
+                                            <option value="MN">منغوليا</option>
+                                            <option value="MR">موريتانيا</option>
+                                            <option value="MU">موريشيوس</option>
+                                            <option value="MZ">موزمبيق</option>
+                                            <option value="MD">مولدافيا</option>
+                                            <option value="MC">موناكو</option>
+                                            <option value="MS">مونتسرات</option>
+                                            <option value="MM">ميانمار</option>
+                                            <option value="FM">ميكرونيزيا</option>
+                                            <option value="NA">ناميبيا</option>
+                                            <option value="NR">نورو</option>
+                                            <option value="NP">نيبال</option>
+                                            <option value="NG">نيجيريا</option>
+                                            <option value="NI">نيكاراجوا</option>
+                                            <option value="NZ">نيوزيلاندا</option>
+
+                                        </select>
+                                        <span
+                                            style=""><img
+                                                width="20px" height="20px" src="/assest/svg/img/down-arrow-svgrepo-com.png"
+                                                alt=""></span>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="col-md-12 col-lg-1"> <button class="form-submit">
+                                    <img src="/assest/svg/img/Group 29.png" alt="">
+                                </button></div>
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- home banner end-->
+
+
+    <!-- ابرز الاطباء-->
+    <section style="padding: 100px 0;" class="best-doctors">
+        <div class="container-edited d-flex flex-column">
+            <div class="doctors-title d-flex justify-content-between align-items-center">
+                <h2 style="font-size: 24px; margin: 0;">ابرز الاطباء</h2>
+                <div class="doc-slider-btns d-flex justify-content-between">
+                    <div class="next-btn" id="doc-next">
+                        <img width="20px" height="20px" src="assest/svg/img/rightarrow.png" alt="">
+
+                    </div>
+                    <div class="perv-btn "  id="doc-perv">
+                        <img style="transform:rotate(180deg);" width="20px" height="20px"
+                            src="assest/svg/img/rightarrow.png" alt="">
+                    </div>
+                </div>
+
+            </div>
+            <div class="slider-container row ">
+                <div class="doctor-card col-3  ">
+                    <div class="card-doc-container">
+                        <div class="doctor-card-title d-flex justify-content-between">
+                            <div class="doctor-card-profile d-flex">
+                                <div><img src="assest/images/doc.png" alt=""></div>
+                                <div class="doc-profile-text  ">
+                                    <p>د. احمد عصام</p>
+                                    <p>تخصص أسنان</p>
+                                    <div class="stars-section">
+
+                                        <ul style="margin: 0;" id='stars'>
+                                            <li class='star' title='Poor' data-value='1'>
+                                                <img src="assest/svg/img/star.png" alt="">
+                                            </li>
+                                            <li class='star' title='Fair' data-value='2'>
+                                                <img src="assest/svg/img/star.png" alt="">
+                                            </li>
+                                            <li class='star' title='Good' data-value='3'>
+                                                <img src="assest/svg/img/star.png" alt="">
+                                            </li>
+                                            <li class='star' title='Excellent' data-value='4'>
+                                                <img src="assest/svg/img/star.png" alt="">
+                                            </li>
+                                            <li class='star' title='WOW!!!' data-value='5'>
+                                                <img src="assest/svg/img/star.png" alt="">
+                                            </li>
+                                        </ul>
+
+                                    </div>
+                                </div>
+
+
+
+
+                            </div>
+                            <p class="price" style="font-size: 10px; color:#4835FC ;"> <span><img width="20px"
+                                        height="20px" src="assest/svg/img/vuesax-outline-moneys.png" alt=""></span> 60 ر.س
+                            </p>
+                        </div>
+                        <div style="padding-top:15px" class="card-doc-content">
+                            <p><span><img width="22px" height="22px" src="assest/svg/img/location-pin-svgrepo-com.png"
+                                        alt=""></span> المملكة العربية السعودية - الرياض</p>
+                            <p><span><img width="22px" height="22px"
+                                        src="assest/svg/img/clock-sports-stopwatch-svgrepo-com.png" alt=""></span>مدة
+                                الانتظار : 15د إلي 25د</p>
+
+                            <div class="card-doc-btns d-flex justify-content-between ">
+                                <div class="now-btn ">
+                                    حجز الآن
+                                </div>
+                                <div class="save-btn ">
+                                    <span> <svg id="vuesax_bold_archive" data-name="vuesax/bold/archive"
+                                            xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                            viewBox="0 0 24 24">
+                                            <g id="archive">
+                                                <path id="Vector"
+                                                    d="M13.5,0H3.86A3.869,3.869,0,0,0,0,3.86V17.95c0,1.8,1.29,2.56,2.87,1.69l4.88-2.71a2.118,2.118,0,0,1,1.87,0l4.88,2.71c1.58.88,2.87.12,2.87-1.69V3.86A3.884,3.884,0,0,0,13.5,0ZM11.69,7.75a8.878,8.878,0,0,1-3.01.53,8.878,8.878,0,0,1-3.01-.53.749.749,0,0,1-.45-.96.764.764,0,0,1,.97-.45,7.373,7.373,0,0,0,4.99,0,.75.75,0,0,1,.51,1.41Z"
+                                                    transform="translate(3.32 2)" fill="#292d32" />
+                                                <path id="Vector-2" data-name="Vector" d="M0,0H24V24H0Z"
+                                                    transform="translate(24 24) rotate(180)" fill="none" opacity="0" />
+                                            </g>
+                                        </svg>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="doctor-card col-3  ">
+                    <div class="card-doc-container">
+                        <div class="doctor-card-title d-flex justify-content-between">
+                            <div class="doctor-card-profile d-flex">
+                                <div><img src="assest/images/doc.png" alt=""></div>
+                                <div class="doc-profile-text  ">
+                                    <p>د. احمد عصام</p>
+                                    <p>تخصص أسنان</p>
+                                    <div class="stars-section">
+
+                                        <ul style="margin: 0;" id='stars'>
+                                            <li class='star' title='Poor' data-value='1'>
+                                                <img src="assest/svg/img/star.png" alt="">
+                                            </li>
+                                            <li class='star' title='Fair' data-value='2'>
+                                                <img src="assest/svg/img/star.png" alt="">
+                                            </li>
+                                            <li class='star' title='Good' data-value='3'>
+                                                <img src="assest/svg/img/star.png" alt="">
+                                            </li>
+                                            <li class='star' title='Excellent' data-value='4'>
+                                                <img src="assest/svg/img/star.png" alt="">
+                                            </li>
+                                            <li class='star' title='WOW!!!' data-value='5'>
+                                                <img src="assest/svg/img/star.png" alt="">
+                                            </li>
+                                        </ul>
+
+                                    </div>
+                                </div>
+
+
+
+
+                            </div>
+                            <p class="price" style="font-size: 10px; color:#4835FC ;"> <span><img width="20px"
+                                        height="20px" src="assest/svg/img/vuesax-outline-moneys.png" alt=""></span> 60 ر.س
+                            </p>
+                        </div>
+                        <div style="padding-top:15px" class="card-doc-content">
+                            <p><span><img width="22px" height="22px" src="assest/svg/img/location-pin-svgrepo-com.png"
+                                        alt=""></span> المملكة العربية السعودية - الرياض</p>
+                            <p><span><img width="22px" height="22px"
+                                        src="assest/svg/img/clock-sports-stopwatch-svgrepo-com.png" alt=""></span>مدة
+                                الانتظار : 15د إلي 25د</p>
+
+                            <div class="card-doc-btns d-flex justify-content-between ">
+                                <div class="now-btn ">
+                                    حجز الآن
+                                </div>
+                                <div class="save-btn ">
+
+                                    <span> <svg id="vuesax_bold_archive" data-name="vuesax/bold/archive"
+                                            xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                            viewBox="0 0 24 24">
+                                            <g id="archive">
+                                                <path id="Vector"
+                                                    d="M13.5,0H3.86A3.869,3.869,0,0,0,0,3.86V17.95c0,1.8,1.29,2.56,2.87,1.69l4.88-2.71a2.118,2.118,0,0,1,1.87,0l4.88,2.71c1.58.88,2.87.12,2.87-1.69V3.86A3.884,3.884,0,0,0,13.5,0ZM11.69,7.75a8.878,8.878,0,0,1-3.01.53,8.878,8.878,0,0,1-3.01-.53.749.749,0,0,1-.45-.96.764.764,0,0,1,.97-.45,7.373,7.373,0,0,0,4.99,0,.75.75,0,0,1,.51,1.41Z"
+                                                    transform="translate(3.32 2)" fill="#292d32" />
+                                                <path id="Vector-2" data-name="Vector" d="M0,0H24V24H0Z"
+                                                    transform="translate(24 24) rotate(180)" fill="none" opacity="0" />
+                                            </g>
+                                        </svg>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="doctor-card col-3  ">
+                    <div class="card-doc-container">
+                        <div class="doctor-card-title d-flex justify-content-between">
+                            <div class="doctor-card-profile d-flex">
+                                <div><img src="assest/images/doc.png" alt=""></div>
+                                <div class="doc-profile-text  ">
+                                    <p>د. احمد عصام</p>
+                                    <p>تخصص أسنان</p>
+                                    <div class="stars-section">
+
+                                        <ul style="margin: 0;" id='stars'>
+                                            <li class='star' title='Poor' data-value='1'>
+                                                <img src="assest/svg/img/star.png" alt="">
+                                            </li>
+                                            <li class='star' title='Fair' data-value='2'>
+                                                <img src="assest/svg/img/star.png" alt="">
+                                            </li>
+                                            <li class='star' title='Good' data-value='3'>
+                                                <img src="assest/svg/img/star.png" alt="">
+                                            </li>
+                                            <li class='star' title='Excellent' data-value='4'>
+                                                <img src="assest/svg/img/star.png" alt="">
+                                            </li>
+                                            <li class='star' title='WOW!!!' data-value='5'>
+                                                <img src="assest/svg/img/star.png" alt="">
+                                            </li>
+                                        </ul>
+
+                                    </div>
+                                </div>
+
+
+
+
+                            </div>
+                            <p class="price" style="font-size: 10px; color:#4835FC ;"> <span><img width="20px"
+                                        height="20px" src="assest/svg/img/vuesax-outline-moneys.png" alt=""></span> 60 ر.س
+                            </p>
+                        </div>
+                        <div style="padding-top:15px" class="card-doc-content">
+                            <p><span><img width="22px" height="22px" src="assest/svg/img/location-pin-svgrepo-com.png"
+                                        alt=""></span> المملكة العربية السعودية - الرياض</p>
+                            <p><span><img width="22px" height="22px"
+                                        src="assest/svg/img/clock-sports-stopwatch-svgrepo-com.png" alt=""></span>مدة
+                                الانتظار : 15د إلي 25د</p>
+
+                            <div class="card-doc-btns d-flex justify-content-between ">
+                                <div class="now-btn ">
+                                    حجز الآن
+                                </div>
+                                <div class="save-btn ">
+                                    <span> <svg id="vuesax_bold_archive" data-name="vuesax/bold/archive"
+                                            xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                            viewBox="0 0 24 24">
+                                            <g id="archive">
+                                                <path id="Vector"
+                                                    d="M13.5,0H3.86A3.869,3.869,0,0,0,0,3.86V17.95c0,1.8,1.29,2.56,2.87,1.69l4.88-2.71a2.118,2.118,0,0,1,1.87,0l4.88,2.71c1.58.88,2.87.12,2.87-1.69V3.86A3.884,3.884,0,0,0,13.5,0ZM11.69,7.75a8.878,8.878,0,0,1-3.01.53,8.878,8.878,0,0,1-3.01-.53.749.749,0,0,1-.45-.96.764.764,0,0,1,.97-.45,7.373,7.373,0,0,0,4.99,0,.75.75,0,0,1,.51,1.41Z"
+                                                    transform="translate(3.32 2)" fill="#292d32" />
+                                                <path id="Vector-2" data-name="Vector" d="M0,0H24V24H0Z"
+                                                    transform="translate(24 24) rotate(180)" fill="none" opacity="0" />
+                                            </g>
+                                        </svg>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="doctor-card col-3  ">
+                    <div class="card-doc-container">
+                        <div class="doctor-card-title d-flex justify-content-between">
+                            <div class="doctor-card-profile d-flex">
+                                <div><img src="assest/images/doc.png" alt=""></div>
+                                <div class="doc-profile-text  ">
+                                    <p>د. احمد عصام</p>
+                                    <p>تخصص أسنان</p>
+                                    <div class="stars-section">
+
+                                        <ul style="margin: 0;" id='stars'>
+                                            <li class='star' title='Poor' data-value='1'>
+                                                <img src="assest/svg/img/star.png" alt="">
+                                            </li>
+                                            <li class='star' title='Fair' data-value='2'>
+                                                <img src="assest/svg/img/star.png" alt="">
+                                            </li>
+                                            <li class='star' title='Good' data-value='3'>
+                                                <img src="assest/svg/img/star.png" alt="">
+                                            </li>
+                                            <li class='star' title='Excellent' data-value='4'>
+                                                <img src="assest/svg/img/star.png" alt="">
+                                            </li>
+                                            <li class='star' title='WOW!!!' data-value='5'>
+                                                <img src="assest/svg/img/star.png" alt="">
+                                            </li>
+                                        </ul>
+
+                                    </div>
+                                </div>
+
+
+
+
+                            </div>
+                            <p class="price" style="font-size: 10px; color:#4835FC ;"> <span><img width="20px"
+                                        height="20px" src="assest/svg/img/vuesax-outline-moneys.png" alt=""></span> 60 ر.س
+                            </p>
+                        </div>
+                        <div style="padding-top:15px" class="card-doc-content">
+                            <p><span><img width="22px" height="22px" src="assest/svg/img/location-pin-svgrepo-com.png"
+                                        alt=""></span> المملكة العربية السعودية - الرياض</p>
+                            <p><span><img width="22px" height="22px"
+                                        src="assest/svg/img/clock-sports-stopwatch-svgrepo-com.png" alt=""></span>مدة
+                                الانتظار : 15د إلي 25د</p>
+
+                            <div class="card-doc-btns d-flex justify-content-between ">
+                                <div class="now-btn ">
+                                    حجز الآن
+                                </div>
+                                <div class="save-btn ">
+                                    <span> <svg id="vuesax_bold_archive" data-name="vuesax/bold/archive"
+                                            xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                            viewBox="0 0 24 24">
+                                            <g id="archive">
+                                                <path id="Vector"
+                                                    d="M13.5,0H3.86A3.869,3.869,0,0,0,0,3.86V17.95c0,1.8,1.29,2.56,2.87,1.69l4.88-2.71a2.118,2.118,0,0,1,1.87,0l4.88,2.71c1.58.88,2.87.12,2.87-1.69V3.86A3.884,3.884,0,0,0,13.5,0ZM11.69,7.75a8.878,8.878,0,0,1-3.01.53,8.878,8.878,0,0,1-3.01-.53.749.749,0,0,1-.45-.96.764.764,0,0,1,.97-.45,7.373,7.373,0,0,0,4.99,0,.75.75,0,0,1,.51,1.41Z"
+                                                    transform="translate(3.32 2)" fill="#292d32" />
+                                                <path id="Vector-2" data-name="Vector" d="M0,0H24V24H0Z"
+                                                    transform="translate(24 24) rotate(180)" fill="none" opacity="0" />
+                                            </g>
+                                        </svg>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="doctor-card col-3  ">
+                    <div class="card-doc-container">
+                        <div class="doctor-card-title d-flex justify-content-between">
+                            <div class="doctor-card-profile d-flex">
+                                <div><img src="assest/images/doc.png" alt=""></div>
+                                <div class="doc-profile-text  ">
+                                    <p>د. احمد عصام</p>
+                                    <p>تخصص أسنان</p>
+                                    <div class="stars-section">
+
+                                        <ul style="margin: 0;" id='stars'>
+                                            <li class='star' title='Poor' data-value='1'>
+                                                <img src="assest/svg/img/star.png" alt="">
+                                            </li>
+                                            <li class='star' title='Fair' data-value='2'>
+                                                <img src="assest/svg/img/star.png" alt="">
+                                            </li>
+                                            <li class='star' title='Good' data-value='3'>
+                                                <img src="assest/svg/img/star.png" alt="">
+                                            </li>
+                                            <li class='star' title='Excellent' data-value='4'>
+                                                <img src="assest/svg/img/star.png" alt="">
+                                            </li>
+                                            <li class='star' title='WOW!!!' data-value='5'>
+                                                <img src="assest/svg/img/star.png" alt="">
+                                            </li>
+                                        </ul>
+
+                                    </div>
+                                </div>
+
+
+
+
+                            </div>
+                            <p class="price" style="font-size: 10px; color:#4835FC ;"> <span><img width="20px"
+                                        height="20px" src="assest/svg/img/vuesax-outline-moneys.png" alt=""></span> 60 ر.س
+                            </p>
+                        </div>
+                        <div style="padding-top:15px" class="card-doc-content">
+                            <p><span><img width="22px" height="22px" src="assest/svg/img/location-pin-svgrepo-com.png"
+                                        alt=""></span> المملكة العربية السعودية - الرياض</p>
+                            <p><span><img width="22px" height="22px"
+                                        src="assest/svg/img/clock-sports-stopwatch-svgrepo-com.png" alt=""></span>مدة
+                                الانتظار : 15د إلي 25د</p>
+
+                            <div class="card-doc-btns d-flex justify-content-between ">
+                                <div class="now-btn ">
+                                    حجز الآن
+                                </div>
+                                <div class="save-btn ">
+                                    <span> <svg id="vuesax_bold_archive" data-name="vuesax/bold/archive"
+                                            xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                            viewBox="0 0 24 24">
+                                            <g id="archive">
+                                                <path id="Vector"
+                                                    d="M13.5,0H3.86A3.869,3.869,0,0,0,0,3.86V17.95c0,1.8,1.29,2.56,2.87,1.69l4.88-2.71a2.118,2.118,0,0,1,1.87,0l4.88,2.71c1.58.88,2.87.12,2.87-1.69V3.86A3.884,3.884,0,0,0,13.5,0ZM11.69,7.75a8.878,8.878,0,0,1-3.01.53,8.878,8.878,0,0,1-3.01-.53.749.749,0,0,1-.45-.96.764.764,0,0,1,.97-.45,7.373,7.373,0,0,0,4.99,0,.75.75,0,0,1,.51,1.41Z"
+                                                    transform="translate(3.32 2)" fill="#292d32" />
+                                                <path id="Vector-2" data-name="Vector" d="M0,0H24V24H0Z"
+                                                    transform="translate(24 24) rotate(180)" fill="none" opacity="0" />
+                                            </g>
+                                        </svg>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="doctor-card col-3  ">
+                    <div class="card-doc-container">
+                        <div class="doctor-card-title d-flex justify-content-between">
+                            <div class="doctor-card-profile d-flex">
+                                <div><img src="assest/images/doc.png" alt=""></div>
+                                <div class="doc-profile-text  ">
+                                    <p>د. احمد عصام</p>
+                                    <p>تخصص أسنان</p>
+                                    <div class="stars-section">
+
+                                        <ul style="margin: 0;" id='stars'>
+                                            <li class='star' title='Poor' data-value='1'>
+                                                <img src="assest/svg/img/star.png" alt="">
+                                            </li>
+                                            <li class='star' title='Fair' data-value='2'>
+                                                <img src="assest/svg/img/star.png" alt="">
+                                            </li>
+                                            <li class='star' title='Good' data-value='3'>
+                                                <img src="assest/svg/img/star.png" alt="">
+                                            </li>
+                                            <li class='star' title='Excellent' data-value='4'>
+                                                <img src="assest/svg/img/star.png" alt="">
+                                            </li>
+                                            <li class='star' title='WOW!!!' data-value='5'>
+                                                <img src="assest/svg/img/star.png" alt="">
+                                            </li>
+                                        </ul>
+
+                                    </div>
+                                </div>
+
+
+
+
+                            </div>
+                            <p class="price" style="font-size: 10px; color:#4835FC ;"> <span><img width="20px"
+                                        height="20px" src="assest/svg/img/vuesax-outline-moneys.png" alt=""></span> 60 ر.س
+                            </p>
+                        </div>
+                        <div style="padding-top:15px" class="card-doc-content">
+                            <p><span><img width="22px" height="22px" src="assest/svg/img/location-pin-svgrepo-com.png"
+                                        alt=""></span> المملكة العربية السعودية - الرياض</p>
+                            <p><span><img width="22px" height="22px"
+                                        src="assest/svg/img/clock-sports-stopwatch-svgrepo-com.png" alt=""></span>مدة
+                                الانتظار : 15د إلي 25د</p>
+
+                            <div class="card-doc-btns d-flex justify-content-between ">
+                                <div class="now-btn ">
+                                    حجز الآن
+                                </div>
+                                <div class="save-btn ">
+                                    <span> <svg id="vuesax_bold_archive" data-name="vuesax/bold/archive"
+                                            xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                            viewBox="0 0 24 24">
+                                            <g id="archive">
+                                                <path id="Vector"
+                                                    d="M13.5,0H3.86A3.869,3.869,0,0,0,0,3.86V17.95c0,1.8,1.29,2.56,2.87,1.69l4.88-2.71a2.118,2.118,0,0,1,1.87,0l4.88,2.71c1.58.88,2.87.12,2.87-1.69V3.86A3.884,3.884,0,0,0,13.5,0ZM11.69,7.75a8.878,8.878,0,0,1-3.01.53,8.878,8.878,0,0,1-3.01-.53.749.749,0,0,1-.45-.96.764.764,0,0,1,.97-.45,7.373,7.373,0,0,0,4.99,0,.75.75,0,0,1,.51,1.41Z"
+                                                    transform="translate(3.32 2)" fill="#292d32" />
+                                                <path id="Vector-2" data-name="Vector" d="M0,0H24V24H0Z"
+                                                    transform="translate(24 24) rotate(180)" fill="none" opacity="0" />
+                                            </g>
+                                        </svg>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+        </div>
+
+
+        </div>
+        </div>
+        </div>
+    </section>
+
+
+    <!-- التخصصء-->
+    <section style="padding: 100px 0;" class="best-doctors">
+        <div class="container-edited d-flex flex-column">
+            <div class="doctors-title d-flex justify-content-between align-items-center">
+                <h2 style="font-size: 24px; margin: 0;">احجز حسب التخصص </h2>
+                <div class="doc-slider-btns d-flex justify-content-between">
+                    <div class="next-btn" id="spec-next">
+                        <img width="20px" height="20px" src="assest/svg/img/rightarrow.png" alt="">
+
+                    </div>
+                    <div class="perv-btn "  id="spec-perv">
+                        <img style="transform:rotate(180deg);" width="20px" height="20px"
+                            src="assest/svg/img/rightarrow.png" alt="">
+                    </div>
+                </div>
+
+            </div>
+            <div class="row " style="margin-top: 50px;">
+                <div class="spec-slider">
+
+                    <div class="spec-card">
+                        <span><img src="/assest/svg/img/Group 60207.png" alt=""></span>
+                        الطب الباطني
+                    </div>
+                    <div class="spec-card">
+                        <span><img src="/assest/svg/img/Group 60208.png" alt=""></span>
+                        جراحة عامة
+                    </div>
+                    <div class="spec-card">
+                        <span><img src="/assest/svg/img/Group 60209.png" alt=""></span>
+                        طب العظام
+                    </div>
+                    <div class="spec-card">
+                        <span><img src="/assest/svg/img/svgexport-6 (52).png" alt=""></span>
+                        طب النساء والتوليد
+                    </div>
+                    <div class="spec-card">
+                        <span><img src="/assest/svg/img/Group 60213.png " alt=""></span>
+                        أنف وأذن وحنجرة
+                    </div>
+                    <div class="spec-card">
+                        <span><img src="/assest/svg/img/Group 60213.png " alt=""></span>
+                        أنف وأذن وحنجرة
+                    </div>
+                    <div class="spec-card">
+                        <span><img src="/assest/svg/img/Group 60208.png" alt=""></span>
+                        جراحة عامة
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        </div>
+
+
+        </div>
+        </div>
+        </div>
+    </section>
+
+
+    <!-- app-->
+
+    <section style="padding: 100px 0;">
+        <div class="container">
+            <div class="phoneBanner d-flex justify-content-between" style="width: 100%;">
+                <img width="100%" src="assest/images/phoneBanner.png" alt="">
+                <div class="content-conatinaer justify-content-between ">
+                    <div class="text-content ">
+                        <div class="text">
+                            <p> احجز الآن بسهولة...</p>
+                            <p>مع تطبيق النصر الطبي</p>
+                            <div class="download">
+                                <p>حمل التطبيق الآن</p>
+                                <div class="download-img d-flex ">
+                                    <a href=""> <img width="100%" src="assest/images/Group 11403.png" alt=""></a>
+                                    <a href="" style=""> <img width="100%"
+                                            src="assest/images/Page-1.png" alt=""></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <img height="125%" style="transform: translateY(-20%);" src="/assest/images/105.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="Counters-section">
+        <div class="container">
+            <div class="Counter-Title">
+                <h2>
+                    احصائيات وارقام
+                </h2>
+                <p style="width:60%;">
+                    هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على الشكل
+                    الخارجي للنص أو شكل توضع الفقرات في الصفحة التي يقرأها</p>
+             </div>
+            <div class="Counter-Cards row">
+                <div class=" col-md-6 col-xl-3 col-sm-12 mb-5" >
+                  <div class=" Counter-Card couneter-content d-flex align-items-center justify-content-between">
+                    <div class="Card-Text">
+                        <div class="Counting">
+                            <div>
+                                <h2>3000+</h2>
+                                <h2>1000+</h2>
+                                <h2>2000+</h2>
+                                <h2>5000+</h2>
+                                <h2>1,0000+</h2>
+                            </div>
+                        </div>
+                        <span>ملف متنوع</span>
+                    </div>
+                    <div class="Counter-Icon">
+                        <span>
+                            <svg id="vuesax_bulk_folder" data-name="vuesax/bulk/folder"
+                                xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 44 44">
+                                <g id="folder">
+                                    <path id="Vector"
+                                        d="M36.667,2.988v10.23a9.819,9.819,0,0,1-9.808,9.808H9.808A9.819,9.819,0,0,1,0,13.218V0H36.19a9.2,9.2,0,0,1,.458,2.567A3.245,3.245,0,0,1,36.667,2.988Z"
+                                        transform="translate(3.667 17.307)" fill="#4835FC" />
+                                    <path id="Vector-2" data-name="Vector"
+                                        d="M36.19,13.64H0V8.1A8.106,8.106,0,0,1,8.1,0h4.272C15.363,0,16.3.972,17.49,2.567l2.567,3.41c.568.752.642.862,1.705.862h5.115A9.757,9.757,0,0,1,36.19,13.64Z"
+                                        transform="translate(3.667 3.667)" fill="#4835FC" opacity="0.4" />
+                                    <path id="Vector-3" data-name="Vector" d="M0,0H44V44H0Z" fill="none" opacity="0" />
+                                </g>
+                            </svg>
+
+                        </span>
+                    </div>
+                </div>
+
+            </div>
+            <div class="  col-md-6 col-xl-3 col-sm-12 mb-5"">
+                   <div class=" Counter-Card">
+                <div class="Card-Text">
+                    <div class="Counting">
+                        <div>
+                            <h2>200+</h2>
+                            <h2>400+</h2>
+                            <h2>500+</h2>
+                            <h2>600+</h2>
+                            <h2>700+</h2>
+                        </div>
+                    </div>
+                    <span>ملف متنوع</span>
+                </div>
+                <div class="Counter-Icon">
+                    <span>
+                        <svg id="vuesax_bulk_profile-2user" data-name="vuesax/bulk/profile-2user"
+                            xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 44 44">
+                            <g id="profile-2user">
+                                <path id="Vector"
+                                    d="M8.708,0a8.7,8.7,0,0,0-.22,17.4,1.479,1.479,0,0,1,.4,0H9.02A8.7,8.7,0,0,0,8.708,0Z"
+                                    transform="translate(7.792 3.667)" fill="#4835FC" opacity="0.4" />
+                                <path id="Vector-2" data-name="Vector"
+                                    d="M22.22,2.557C17.1-.853,8.763-.853,3.612,2.557A7.237,7.237,0,0,0,0,8.479a7.176,7.176,0,0,0,3.593,5.885,16.939,16.939,0,0,0,9.313,2.585,16.939,16.939,0,0,0,9.313-2.585,7.233,7.233,0,0,0,3.593-5.922A7.219,7.219,0,0,0,22.22,2.557Z"
+                                    transform="translate(3.593 23.384)" fill="#4835FC" />
+                                <path id="Vector-3" data-name="Vector"
+                                    d="M10.78,6.02a6.562,6.562,0,0,1-5.738,7.095H4.95a.858.858,0,0,0-.312.037A6.578,6.578,0,0,1,0,11.63,8.39,8.39,0,0,0,2.75,4.663a8.508,8.508,0,0,0-1.412-4A6.583,6.583,0,0,1,10.78,6.02Z"
+                                    transform="translate(25.868 7.437)" fill="#4835FC" opacity="0.4" />
+                                <path id="Vector-4" data-name="Vector"
+                                    d="M14.667,7.5a5.584,5.584,0,0,1-3.19,4.363,12.94,12.94,0,0,1-6.435,1.43A6.544,6.544,0,0,0,7.278,9.039a7.223,7.223,0,0,0-3.062-6.2A15.134,15.134,0,0,0,0,.532C4.052-.641,9.148.147,12.283,2.677A5.57,5.57,0,0,1,14.667,7.5Z"
+                                    transform="translate(25.648 22.916)" fill="#4835FC" />
+                                <path id="Vector-5" data-name="Vector" d="M0,0H44V44H0Z" fill="none" opacity="0" />
+                            </g>
+                        </svg>
+
+
+                    </span>
+                </div>
+            </div>
+
+        </div>
+        <div class="  col-md-6 col-xl-3 col-sm-12 mb-5"">
+                   <div class=" Counter-Card">
+            <div class="Card-Text">
+                <div class="Counting">
+                    <div>
+                        <h2>17,0000+</h2>
+                        <h2>40,0000+</h2>
+                        <h2>50,0000+</h2>
+                        <h2>55,0000+</h2>
+                        <h2>60,0000+</h2>
+                    </div>
+                </div>
+                <span>ملف متنوع</span>
+            </div>
+            <div class="Counter-Icon">
+                <span>
+                    <svg id="import" xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 44 44">
+                        <g id="Group_651" data-name="Group 651" transform="translate(15.712 5.958)" opacity="0.4">
+                            <path id="Vector"
+                                d="M5.318,6.693a1.371,1.371,0,0,1-.972-.4L-.347,1.6A1.375,1.375,0,1,1,1.6-.347L5.318,3.374,9.039-.347A1.375,1.375,0,0,1,10.984,1.6L6.291,6.291A1.371,1.371,0,0,1,5.318,6.693Z"
+                                transform="translate(0.75 14.829)" fill="#4835FC" />
+                            <path id="Vector-2" data-name="Vector"
+                                d="M.625,20.645A1.375,1.375,0,0,1-.75,19.27V.625A1.375,1.375,0,0,1,2,.625V19.27A1.375,1.375,0,0,1,.625,20.645Z"
+                                transform="translate(5.444 0.75)" fill="#4835FC" />
+                        </g>
+                        <path id="Vector-3" data-name="Vector"
+                            d="M15.292,16.667A15.754,15.754,0,0,1,3.524,11.944,16.278,16.278,0,0,1-.75.625,1.375,1.375,0,1,1,2,.625C2,8.451,7.466,13.917,15.292,13.917S28.583,8.451,28.583.625a1.375,1.375,0,0,1,2.75,0,16.278,16.278,0,0,1-4.274,11.319A15.754,15.754,0,0,1,15.292,16.667Z"
+                            transform="translate(6.708 21.705)" fill="#4835FC" />
+                        <path id="Vector-4" data-name="Vector" d="M0,0H44V44H0Z"
+                            transform="translate(44 44) rotate(180)" fill="none" opacity="0" />
+                    </svg>
+
+                </span>
+            </div>
+        </div>
+
+        </div>
+        <div class=" col-md-6 col-xl-3 col-sm-12 mb-5">
+            <div class="Counter-Card">
+                <div class="Card-Text">
+
+                    <div class="Counting">
+                        <div>
+                            <h2>10+</h2>
+                            <h2>15+</h2>
+                            <h2>25+</h2>
+                            <h2>30+</h2>
+                            <h2>35+</h2>
+                        </div>
+                    </div>
+                    <span>ملف متنوع</span>
+                </div>
+                <div class="Counter-Icon">
+                    <span>
+                        <svg id="vuesax_bulk_global" data-name="vuesax/bulk/global" xmlns="http://www.w3.org/2000/svg"
+                            width="44" height="44" viewBox="0 0 44 44">
+                            <g id="global">
+                                <path id="Vector"
+                                    d="M8.415,8.378c-.055,0-.128.037-.183.037A18.344,18.344,0,0,1,0,.183C0,.128.037.055.037,0A58.47,58.47,0,0,0,6.875,1.54,61.5,61.5,0,0,0,8.415,8.378Z"
+                                    transform="translate(5.61 29.957)" fill="#4835FC" opacity="0.4" />
+                                <path id="Vector-2" data-name="Vector"
+                                    d="M8.525.2A18.5,18.5,0,0,1,0,8.58,56.032,56.032,0,0,0,1.668,1.54,57.348,57.348,0,0,0,8.488,0C8.47.073,8.525.147,8.525.2Z"
+                                    transform="translate(29.865 29.957)" fill="#4835FC" opacity="0.4" />
+                                <path id="Vector-3" data-name="Vector"
+                                    d="M8.672,8.672A58.013,58.013,0,0,0,1.668,7,51.176,51.176,0,0,0,0,0,18.428,18.428,0,0,1,8.672,8.672Z"
+                                    transform="translate(29.865 5.463)" fill="#4835FC" opacity="0.4" />
+                                <path id="Vector-4" data-name="Vector"
+                                    d="M8.562.055A57.288,57.288,0,0,0,7.04,6.875,52.928,52.928,0,0,0,0,8.525,18.5,18.5,0,0,1,8.378,0C8.433,0,8.507.055,8.562.055Z"
+                                    transform="translate(5.463 5.61)" fill="#4835FC" opacity="0.4" />
+                                <path id="Vector-5" data-name="Vector"
+                                    d="M12.8,8.415a57.436,57.436,0,0,0-12.8,0A52.018,52.018,0,0,1,1.87.972a3,3,0,0,0,.037-.4A19.077,19.077,0,0,1,6.4,0a18.923,18.923,0,0,1,4.473.568,3.044,3.044,0,0,0,.055.4A52.638,52.638,0,0,1,12.8,8.415Z"
+                                    transform="translate(15.602 3.667)" fill="#4835FC" />
+                                <path id="Vector-6" data-name="Vector"
+                                    d="M8.415,12.8a51.412,51.412,0,0,1-7.443-1.87,3,3,0,0,0-.4-.037A19.077,19.077,0,0,1,0,6.4,18.923,18.923,0,0,1,.568,1.925a3.044,3.044,0,0,0,.4-.055A54.579,54.579,0,0,1,8.415,0,59.719,59.719,0,0,0,8.415,12.8Z"
+                                    transform="translate(3.667 15.602)" fill="#4835FC" />
+                                <path id="Vector-7" data-name="Vector"
+                                    d="M8.415,6.4a19.077,19.077,0,0,1-.568,4.492,3,3,0,0,0-.4.037A55.263,55.263,0,0,1,0,12.8,57.436,57.436,0,0,0,0,0,52.018,52.018,0,0,1,7.443,1.87a1.527,1.527,0,0,0,.4.055A19.046,19.046,0,0,1,8.415,6.4Z"
+                                    transform="translate(31.918 15.602)" fill="#4835FC" />
+                                <path id="Vector-8" data-name="Vector"
+                                    d="M12.8,0a51.412,51.412,0,0,1-1.87,7.443,3.044,3.044,0,0,0-.055.4A18.923,18.923,0,0,1,6.4,8.415a19.077,19.077,0,0,1-4.492-.568,3,3,0,0,0-.037-.4A54.579,54.579,0,0,1,0,0,57.365,57.365,0,0,0,6.4.4,57.09,57.09,0,0,0,12.8,0Z"
+                                    transform="translate(15.602 31.918)" fill="#4835FC" />
+                                <path id="Vector-9" data-name="Vector"
+                                    d="M14.233,14.233a55.072,55.072,0,0,1-13.8,0,55.072,55.072,0,0,1,0-13.8,55.072,55.072,0,0,1,13.8,0A55.072,55.072,0,0,1,14.233,14.233Z"
+                                    transform="translate(14.667 14.667)" fill="#4835FC" />
+                                <path id="Vector-10" data-name="Vector" d="M0,0H44V44H0Z" fill="none" opacity="0" />
+                            </g>
+                        </svg>
+
+
+                    </span>
+                </div>
+            </div>
+
+        </div>
+             </div>
+        </div>
+    </section>
+
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasRightLabel">Offcanvas right</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <div class="nav-btns mb-4 logged">
+                <div class="country-nav mb-4">
+                    <div class="dropdown ">
+                        <button class="cout  dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false"> <img width="38px" height="25px" src="assest/svg/img/saudi-arabia-svgrepo-com.png" alt="">
+                            السعودية
+                        </button>
+                        <ul class="dropdown-menu dropdown-menu-light">
+                          <li><a class="dropdown-item d-flex justify-content-start active" href="#"> <img width="38px" height="25px" src="assest/svg/img/saudi-arabia-svgrepo-com.png" alt="">   السعودية</a></li>
+                          <li><a class="dropdown-item   d-flex justify-content-start " href="#" style="text-align: right;"> <img width="38px" height="25px" src="assest/svg/img/saudi-arabia-svgrepo-com.png" alt="">   مصر </a></li>
+                          <li><a class="dropdown-item  d-flex justify-content-start " href="#"> <img width="38px" height="25px" src="assest/svg/img/saudi-arabia-svgrepo-com.png" alt="">    السعودية  </a></li>
+
+                        </ul>
+                      </div>
+                </div>
+                <div class="btn-group">
+                    <div class="login" data-bs-toggle="modal" data-bs-target="#exampleModal">الدخول</div>
+                    <div class="join-us" data-bs-toggle="modal" data-bs-target="#new-account">انضم الآن</div>
+                </div>
+                <div class="profile align-items-center " style="cursor: pointer;">
+                    <img src="/assest/images/NoPath - Copy (31).png" alt="">
+                    <p style="margin: 0; margin-right: 4px;">مرحباً بك يا <span style="color: #4835FC;">إبراهيم</span>
+                    </p>
+                </div>
+            </div>
+            <ul class="navbar-nav nav-links">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">من نحن</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">اتصل بنا</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">انضم إلينا</a>
+                </li>
+                <li class="nav-item">
+
+                    <a class="nav-link " style="cursor: pointer;"> <button type="button "
+                            style="border:none; background-color:transparent;" class="" data-bs-toggle="modal"
+                            data-bs-target="#plan">
+                            <span><img src="/assest/svg/img/svgexport-7 (1).png" alt=""></span>الخطط
+                            والأسعار
+                        </button></a>
+
+
+                </li>
+            </ul>
+
+        </div>
+        <!-- كلمة المرور-->
+    </div>
+    <!--استرجاع كلمة السر-->
+    <div class="modal  fade" id="forgotpass" tabindex="-1" aria-labelledby="forgotpassword" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header d-block" style="border: none;">
+                    <button type="button" class="btn-close"
+                        style="margin: 0; background-color: gray; border-radius: 50%; color: white; margin-bottom: 30px;"
+                        data-bs-dismiss="modal" aria-label="Close"></button>
+                    <h1 class="modal-title " style="font-size: 30px;" id="exampleModalLabel"> استرجاع كلمة السر</h1>
+                    <p style="color: #7D7D8D; font-size: 16px;">قم بإدخال رقم الهاتف المسجل به علي التطبيق ليصلك كود
+                        التأكيد من خلال رسالة نصية</p>
+                </div>
+                <div class="modal-body">
+                    <form action="">
+                        <div class="modal-input" style="">
+                            <input type="text" placeholder="رقم الهاتف">
+                        </div>
+
+                        <button type="submit" class="login-btn" id="to-otb" data-bs-toggle="modal"
+                            data-bs-target="#otb-modal"> الإرسال والمتابعة</button>
+                    </form>
+
+
+                    <div style="margin-top: 50px;">
+                        <p data-bs-dismiss="modal" aria-label="Close" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal">العودة لتسجيل الدخول</p>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!--تسجيل الدخول-->
+    <div class="modal  fade " id="exampleModal" tabindex="-1" aria-labelledby="otb-modal" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header d-block" style="border: none;">
+                    <button type="button" class="btn-close"
+                        style="margin: 0; background-color: gray; border-radius: 50%; color: white; margin-bottom: 30px;"
+                        data-bs-dismiss="modal" aria-label="Close"></button>
+                    <h1 class="modal-title " style="font-size: 30px;" id="exampleModalLabel">مرحبا بك من جديد</h1>
+                    <p style="color: #7D7D8D; font-size: 16px;">يرجي تسجيل الدخول للمتابعة</p>
+                </div>
+                <div class="modal-body">
+                    <form action="">
+                        <div class="modal-input" style="">
+                            <input type="text" placeholder="البريد الالكتروني">
+                        </div>
+                        <div class="modal-input" style="position: relative;  margin-top: 20px;">
+                            <input type="password" placeholder="كلمة المرور">
+                            <span id="showPass" class="eye"><img src="assest/svg/img/vuesax-bold-eye.png" alt=""></span>
+                        </div>
+                        <div style="text-align: end; margin-top: 8px;"><a data-bs-dismiss="modal" aria-label="Close"
+                                data-bs-toggle="modal" data-bs-target="#forgotpass  ">هل
+                                نسيت كلمة السر؟</a></div>
+                        <button type="submit" class="login-btn">تسجيل الدخول</button>
+                    </form>
+
+                    <div class="middle-border">
+                        <p></p>
+                        <span>أو</span>
+                        <p></p>
+                    </div>
+                    <div class="login-google">
+                        <a href="">
+                            <p>
+                                <span><img src="/assest/svg/img/gmail icon.png" alt=""></span>
+                                تسجيل بواسطة جوجل
+                            </p>
+                        </a>
+                    </div>
+                    <div class="login-facebook">
+                        <a href="">
+                            <p>
+                                <span><img src="/assest/svg/img/svgexport-10 (2).png" alt=""></span>
+                                تسجيل بواسطة فيسبوك
+                            </p>
+                        </a>
+                    </div>
+                    <div style="margin-top: 50px;">
+                        <p>لا يوجد لديك حساب ؟<span style="cursor: pointer; color: #4835FC; margin-right: 5px;">تسجيل
+                                حساب جديد</span></p>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!--تسجيل حساب جديد-->
+    <div class="modal  fade " id="new-account" tabindex="-1" aria-labelledby="new-account" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header d-block" style="border: none;">
+                    <button type="button" class="btn-close"
+                        style="margin: 0; background-color: gray; border-radius: 50%; color: white; margin-bottom: 30px;"
+                        data-bs-dismiss="modal" aria-label="Close"></button>
+                    <h1 class="modal-title " style="font-size: 30px;" id="exampleModalLabel"> تسجيل حساب جديد </h1>
+                    <p style="color: #7D7D8D; font-size: 16px;"> من فضلك ، قم بإدخال البيانات المطلوبة منك لإنشاء حساب
+                        جديد </p>
+                </div>
+                <div class="modal-body">
+                    <form action="">
+                        <div class="modal-input mb-4" style="">
+                            <input type="text" placeholder="اسم المستخدم">
+                        </div>
+                        <div class="modal-input mb-4" style="">
+                            <input type="text" placeholder="رقم الهاتف">
+                        </div>
+                        <div class="modal-input mb-4" style="">
+                            <input type="text" placeholder="البريد الالكتروني (اختياري) ">
+                        </div>
+                        <div class="modal-input mb-4" style="position: relative;  margin-top: 20px;">
+                            <input type="password" placeholder="كلمة المرور">
+                            <span id="showPass" class="eye"><img src="assest/svg/img/vuesax-bold-eye.png" alt=""></span>
+                        </div>
+                        <div class="modal-input mb-4" style="position: relative;  margin-top: 20px;">
+                            <input type="password" placeholder="تأكيد كلمة السر ">
+                            <span id="showPass" class="eye"><img src="assest/svg/img/vuesax-bold-eye.png" alt=""></span>
+                        </div>
+                        <div style="text-align: end;"><a data-bs-dismiss="modal" aria-label="Close"
+                                data-bs-toggle="modal" data-bs-target="#forgotpass  ">هل
+                                نسيت كلمة السر؟</a></div>
+                        <button type="submit" class="login-btn">تسجيل الدخول</button>
+                    </form>
+                    <div class="mt-2">
+                        <p style="font-size: 14px; color: #4835FC;">بقيامك بالتسجيل لدينا فأنت توافق علي الشروط والاحكام
+                            و سياسات الخصوصية</p>
+                    </div>
+
+                    <div style="margin-top: 50px;">
+                        <p>لديك حساب ؟<span style="cursor: pointer; color: #4835FC; margin-right: 5px;"> تسجيل دخول الآن
+                            </span></p>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!--رمز التفعيل-->
+    <div class="modal  fade " id="otb-modal" tabindex="-1" aria-labelledby="otb-modal" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header d-block" style="border: none;">
+                    <button type="button" class="btn-close"
+                        style="margin: 0; background-color: gray; border-radius: 50%; color: white; margin-bottom: 30px;"
+                        data-bs-dismiss="modal" aria-label="Close"></button>
+                    <h1 class="modal-title " style="font-size: 30px; color: black;" id="exampleModalLabel"> رمز التفعيل
+                    </h1>
+                    <p style="color: #7D7D8D; font-size: 16px;">يرجي التأكد من الرمز المرسل إليك علي الرقم 966632015
+                        الخاص بك للمتابعة وتغيير كلمة السر</p>
+                </div>
+                <div class="modal-body">
+                    <div class="flex justify-center input-contianer" style="direction: ltr;" id="OTPInput">
+                    </div>
+                    <!-- Change this name attribute to mach your form submission parameters. Make sure you update the id in the javascript code if any changes are made to the id attribute -->
+                    <input hidden id="otp" name="otp" value="">
+                    <button class="otb-submit" id="otpSubmit" data-bs-toggle="modal" data-bs-target="#new-pass  ">تأكيد
+                    </button>
+
+
+                    <div style="margin-top: 50px;">
+                        <p data-bs-dismiss="modal" aria-label="Close" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal">العودة لتسجيل الدخول</p>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!--كلمة سر جديدة-->
+    <div class="modal  fade " id="new-pass" tabindex="-1" aria-labelledby="new-pass" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header d-block" style="border: none;">
+                    <button type="button" class="btn-close"
+                        style="margin: 0; background-color: gray; border-radius: 50%; color: white; margin-bottom: 30px;"
+                        data-bs-dismiss="modal" aria-label="Close"></button>
+                    <h1 class="modal-title " style="font-size: 30px;" id="exampleModalLabel"> إنشاء كلمة السر الجديدة
+                    </h1>
+                    <p style="color: #7D7D8D; font-size: 16px;">قم بإنشاء كلمة السر الجديدة وحاول استخدام الرموز
+                        والأرقام لتقوية كلمة المرور والأبتعاد عن كلمات المرور القديمة </p>
+                </div>
+                <div class="modal-body">
+                    <form action="">
+                        <div class="modal-input" style="position: relative;  margin-top: 20px;">
+                            <input type="password" placeholder="كلمة المرور">
+                            <span id="showPass" class="eye"><img src="assest/svg/img/vuesax-bold-eye.png" alt=""></span>
+                        </div>
+                        <div class="modal-input" style="position: relative;  margin-top: 20px;">
+                            <input type="password" placeholder=" تأكيد كلمة السر الجديدة">
+                            <span id="showPass" class="eye"><img src="assest/svg/img/vuesax-bold-eye.png" alt=""></span>
+                        </div>
+
+                        <button type="submit" class="login-btn"> حفظ</button>
+                    </form>
+
+
+                    <div style="margin-top: 50px;">
+                        <p data-bs-dismiss="modal" aria-label="Close" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal">العودة لتسجيل الدخول</p>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!--الخطط والاسعار-->
+    <div class="modal  fade " id="plan" tabindex="-1" aria-labelledby="plan" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content p-2 " style="background-color: #F8F9FD;">
+                <div class="modal-header d-block" style="border: none;">
+                    <button type="button" class="btn-close"
+                        style="margin: 0; background-color: gray; border-radius: 50%; color: white; margin-bottom: 30px;"
+                        data-bs-dismiss="modal" aria-label="Close"></button>
+                    <h1 class="modal-title " style="font-size: 30px;" id="exampleModalLabel"> الخطط والأسعار </h1>
+                    <p style="color: #7D7D8D; font-size: 16px;">قم باختيار الخطة المناسبة لك مقابل السعر واحصل علي
+                        خصومات تصل إلي 50% للباقات المتاحة </p>
+                </div>
+                <div class="modal-body ">
+                    <div class="punch p-2 prices-container ">
+                        <div class="price-sub d-flex justify-content-between punch p-3"
+                            style="background-color: #F8F9FD; border-radius: 8px;">
+                            <div class="num-sessions">
+                                <p style="margin: 0; font-family:'monBold'; font-size: 18px;">03</p>
+                                <p style="margin: 0;">جلسات</p>
+                            </div>
+                            <div class="time-price">
+                                <span style="margin: 0; font-family:'monBold'; font-size: 26px;">12$</span>
+                                <span>/أسبوعياً</span>
+                            </div>
+                        </div>
+                        <div class="sub-now">
+                            اشترك الآن
+                        </div>
+                    </div>
+                    <div class="punch p-2 prices-container ">
+                        <div class="price-sub d-flex justify-content-between punch p-3"
+                            style="background-color: #F8F9FD; border-radius: 8px;">
+                            <div class="num-sessions">
+                                <p style="margin: 0; font-family:'monBold'; font-size: 18px;">03</p>
+                                <p style="margin: 0;">جلسات</p>
+                            </div>
+                            <div class="time-price">
+                                <span style="margin: 0; font-family:'monBold'; font-size: 26px;">12$</span>
+                                <span>/أسبوعياً</span>
+                            </div>
+                        </div>
+                        <div class="sub-now">
+                            اشترك الآن
+                        </div>
+                    </div>
+                    <div class="punch p-2 prices-container ">
+                        <div class="price-sub d-flex justify-content-between punch p-3"
+                            style="background-color: #F8F9FD; border-radius: 8px;">
+                            <div class="num-sessions">
+                                <p style="margin: 0; font-family:'monBold'; font-size: 18px;">03</p>
+                                <p style="margin: 0;">جلسات</p>
+                            </div>
+                            <div class="time-price">
+                                <span style="margin: 0; font-family:'monBold'; font-size: 26px;">12$</span>
+                                <span>/أسبوعياً</span>
+                            </div>
+                        </div>
+                        <div class="sub-now">
+                            اشترك الآن
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="Description">
+            <div class="container  ">
+                <div class="row justify-content-around">
+                    <div class="about col-lg-3">
+                        <div class="about-logo">
+                           <img width="145px" height="100px" src="assest/images/logo.png" alt="">
+
+                        </div>
+                        <div class="about-text">
+                            هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على الشكل
+                            الخارجي للنص أو شكل توضع الفقرات في الصفحة التي يقرأها
+                        </div>
+                    </div>
+                    <div class="GoTo col-lg-2 mt-4">
+                        <h2 style="font-family: 'monSemiBold'; font-size: 20px;"> المساعدة</h2>
+                    <ul class="list">
+
+                        <li><a href="">الاتصال والدعم</a></li>
+                            <li><a href="">سياسة الخصوصية</a></li>
+                            <li><a href="">الشروط والاحكام </a></li>
+
+
+                    </ul>
+                    </div>
+                    <div class="GoTo col-lg-2 mt-4">
+                        <h2 style="font-family: 'monSemiBold'; font-size: 20px;">الذهاب إلي</h2>
+                    <ul class="list">
+                        <li>    <a href="">من نحن</a>
+                        </li>
+                        <li><a href="">الاتصال والدعم</a></li>
+                            <li><a href="">الخصوصية</a></li>
+                            <li><a href="">انضم الينا</a></li>
+
+
+                    </ul>
+                    </div>
+
+                    <div class="follow-us col-lg-3 mt-4">
+                        <h2 style="font-family: 'monSemiBold'; font-size: 20px;">تابعنا عبر</h2>
+                        <p>
+                            أبقي دائماً علي التواصل معنا ومعرفة آخر المستجدات والأنشطة الخاصة بنا واخر الاخبار والاحداث
+                        </p>
+                        <div class="social-icons">
+                            <span>
+                                <img src="assest/svg/img/Group 16908.png" alt="">
+                              </span>
+                            <span>
+                                <img src="assest/svg/img/Group 16909.png" alt="">
+                              </span>
+                            <span>
+                                <img src="assest/svg/img/Group 11592.png" alt="">
+                              </span>
+                              <span>
+                                <img src="assest/svg/img/Group 11595.png" alt="">
+                              </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copy-right">
+            <span style="color: #6A6E83; font-weight: 100;">©جميع الحقوق محفوظة 2022 - شية</span>
+        </div>
+    </footer>
+
+
+
+
+
+    <!-- scripts-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"
+        integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/3.4.0/jquery-migrate.min.js"
+        integrity="sha512-QDsjSX1mStBIAnNXx31dyvw4wVdHjonOwrkaIhpiIlzqGUCdsI62MwQtHpJF+Npy2SmSlGSROoNWQCOFpqbsOg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js"></script>
+    <script src="js/stars-rating.js"></script>
+    <script src="js/home.js"></script>
+    <script src="js/showpass.js"></script>
+
+
+</body>
+
+</html>
