@@ -104,7 +104,7 @@ body[dir=rtl] .moving-border {
   bottom: 0;
   right: 0;
   height: 4px;
-  background-color: #4835FC;
+  background-color: #05b05e;
   transition: 0.4s;
   transform: translateX(0);
 }

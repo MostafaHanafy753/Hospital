@@ -190,6 +190,7 @@ image2.addEventListener('click', function() {
 });
 
 
+
   // function func() {
   //   var x = document.getElementById("search");
   //   if (x.style.display === "none") {

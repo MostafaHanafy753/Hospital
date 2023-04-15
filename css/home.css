@@ -86,7 +86,75 @@ margin-top: 14px;
 font-size: 10px;
  }
 }
+/* APP SECTION */
+.app-sec>div {
+  background-image: url(./../assest/images/Rectangle_back.png);
+  background-position: bottom;
+  background-size: 100% 80%;
+  background-clip: border-box;
+  background-repeat: no-repeat;
+}
 
+/* text-content */
+.app-sec .text-content1 {
+  padding-top: 120px;
+  padding-bottom: 90px;
+}
+
+.app-sec .text-content1 .sub-title {
+  font-size: 28px;
+  color: var(--primary);
+  font-weight: 400;
+  margin-bottom: 25px;
+}
+
+.app-sec .text-content1 .para-1 {
+  font-size: 40px;
+  color: #fff;
+  margin-bottom: 30px;
+}
+
+
+
+/* btns-title */
+.app-sec .btns-title {
+  font-size: 28px;
+  color: var(--primary);
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+
+.app-sec .buttons>a {
+  display: inline-flex;
+}
+
+.app-sec .buttons>a:not(:last-child) {
+  margin-left: 16px;
+}
+.img-fluid{
+  max-width: 100%;
+}
+
+
+@media (max-width: 991.98px) {
+  .app-sec>div {
+      background-position: bottom;
+      background-size: cover;
+      background-clip: unset;
+  }
+
+  .app-sec .text-content1 {
+      padding-top: 70px;
+      padding-bottom: 70px;
+  }
+
+  .app-sec .text-content1 .para-1 {
+    font-size: 25px;
+    color: #fff;
+    margin-bottom: 30px;
+  }
+
+}
 
 .btn-group a {
   text-decoration: none !important;
@@ -243,7 +311,7 @@ body[dir=rtl] .moving-border {
   transform: translateX(0);
 }
 
-body[dir=rtl] .card-button:nth-child(2):hover~.moving-border {
+body[dir=rtl] .card-button:nth-child(2):hover ~.moving-border {
   transform: translateX(-100%);
 }
 
