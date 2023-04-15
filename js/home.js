@@ -178,6 +178,17 @@ let bodyRtl=localStorage.getItem('dir')
       });
 
   }
+const image1 = document.getElementById('image1');
+const image2 = document.getElementById('image2');
+
+image1.addEventListener('click', function() {
+  this.style.backgroundColor = "#DDD";
+});
+
+image2.addEventListener('click', function() {
+  this.style.backgroundColor = "#DDD  ";
+});
+
 
   // function func() {
   //   var x = document.getElementById("search");
