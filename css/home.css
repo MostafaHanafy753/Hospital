@@ -299,6 +299,14 @@ body[dir=rtl] .card-buttons .card-button {
 body[dir=rtl] .card-buttons .card-button p {
   margin-top: 22px;
 }
+.now-btn a{
+  text-decoration: none !important;
+
+  color: #FFF !important;
+}
+.ankor7{
+
+}
 
 body[dir=rtl] .moving-border {
   position: absolute;
@@ -307,9 +315,19 @@ body[dir=rtl] .moving-border {
   right: 0;
   height: 4px;
   background-color: #4835FC;
-  transition: 0.4s;
+  transition: 0.5s;
   transform: translateX(0);
 }
+.v{
+   transition: 0.4s;
+
+
+}
+.highlight {
+  background-color: #4835FC;
+  border-radius: 30px;
+   color: #fff;
+ }
 
 body[dir=rtl] .card-button:nth-child(2):hover ~.moving-border {
   transform: translateX(-100%);

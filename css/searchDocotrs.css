@@ -92,8 +92,8 @@ body[dir=rtl] .card-buttons .card-button span {
   padding: 12px;
 }
 body[dir=rtl] .card-buttons .card-button {
-  /* padding-left: 82px;
-  padding-right: 82px; */
+  padding-left: 82px;
+  padding-right: 82px;
 }
 body[dir=rtl] .card-buttons .card-button p {
   margin-top: 22px;

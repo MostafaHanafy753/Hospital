@@ -63,7 +63,6 @@
     </nav>
     <!--end nav-->
 
-
     <!-- home banner start-->
     <section class="home-banner">
         <div class="container-fluid p-0 position-relative">
@@ -75,40 +74,41 @@
                         <form action="" class="d-flex row align-items-center justify-content-center">
                             <div class="card-buttons d-flex  position-relative row justify-content-lg-center " style="
                             justify-content: space-evenly;">
-                                <div class="d-flex position-relative row col-lg-5 justify-content-center p-0">
-                                    <div
-                                        class="card-button col-sm-6 col d-flex flex-column justify-content-center justify-content-sm-between  align-items-center">
+                                <div class="d-flex position-relative row col-lg-5 justify-content-center  p-0">
+                                    <div id="button1" onclick="highlightButton('button1')"
+                                        class="card-button v col-sm-4 col d-flex flex-column justify-content-center justify-content-sm-between  align-items-center">
                                         <span><img src="assest/svg/img/vuesax-outline-hospital.png" alt=""></span>
                                         <p>حجز في المقر </p>
                                     </div>
-                                    <div
-                                        class=" card-button col-sm-6 col d-flex flex-column justify-content-center align-items-center">
+                                    <div id="button2" onclick="highlightButton('button2')"
+                                        class=" card-button v col-sm-4 col d-flex flex-column justify-content-center align-items-center">
                                         <span><img src="assest/svg/img/video-outline.png" alt=""></span>
                                         <p> حجز اون لاين</p>
-                                    </div>
-                                    <div class="moving-border rounded-pill">
                                     </div>
                                 </div>
                             </div>
 
-                            <!-- <div class="row col-12 d-flex justify-content-center  btn-group" data-toggle="buttons">
-                                     <div class="col-xl-4 col-md-6 col-sm-12 b  m-2 m-xl-2 ">
-                                        <label class="btn v w-100 text-bg-primary">
-                                            <input type="radio" name="options" id="option1" autocomplete="off"  >
+
+                            <!-- <div class="row col-12 d-flex justify-content-center  btn-group " data-toggle="buttons">
+                                <div class="col-xl-4 col-md-6 col-sm-12 b  m-2 m-xl-2 ">
+                                    <button id="button1" onclick="highlightButton('button1')">
+                                        <label class="btn w-100  ">
                                             <img src="assest/svg/img/video-outline.png" alt="Image 1">
                                             حجز فيديو
                                         </label>
-                                    </div>
-                                    <div class="col-xl-4 col-md-6 m-xl-2 col-sm-12 m-2 b  ">
-                                        <label class="btn w-100  text-bg-primary">
-                                            <input type="radio" name="options" id="option3" autocomplete="off" >
-                                            <img src="assest/svg/img/vuesax-outline-hospital.png"
-                                                alt="Image 2">
-                                                حجز في المقر
-                                        </label>
-                                 </div>
+                                    </button>
 
+                                </div>
+                                <div class="col-xl-4 col-md-6 m-xl-2 col-sm-12 m-2 b  ">
+                                    <button id="button2" onclick="highlightButton('button2')">
+                                        <label class="btn w-100 ">
+                                            <img src="assest/svg/img/vuesax-outline-hospital.png" alt="Image 2">
+                                            حجز في المقر
+                                        </label>
+                                    </button>
+                                </div>
                             </div> -->
+
                             <!-- <div class="col-lg-4 col-md-12 d-flex justify-content-lg-end justify-content-md-center justify-content-sm-center">
                                             <label class="btn btn-outline-primary p-3 m-3">
                                                 <input type="radio" name="options" id="option1" autocomplete="off" class=""> حجز في المقر
@@ -121,7 +121,7 @@
                                         </div> -->
 
 
-                            <div class="inputs row col-lg-10 ">
+                            <div class="inputs row col-lg-11 ">
                                 <div class="input-name col-lg-2 col-md-6 ">
                                     <label for="">الاسم </label>
                                     <input type="text" placeholder="اسم الطبيب">
@@ -602,7 +602,6 @@
                             <div class="col-md-12 col-lg-1 "> <button class="form-submit d">
                                     <img src="assest/svg/img/Group 29.png" alt="">
                                 </button></div>
-
                         </form>
                     </div>
                 </div>
@@ -610,8 +609,6 @@
         </div>
     </section>
     <!-- home banner end-->
-
-
     <!-- ابرز الاطباء-->
     <section style="padding: 100px 0;" class="best-doctors">
         <div class="container-edited d-flex flex-column">
@@ -678,8 +675,8 @@
                                 الانتظار : 15د إلي 25د</p>
 
                             <div class="card-doc-btns d-flex justify-content-between ">
-                                <div class="now-btn ">
-                                    حجز الآن
+                                <div class="now-btn">
+                                    <a href="doctor.html" class="ankor7">حجز الآن</a>
                                 </div>
                                 <div class="save-btn ">
                                     <span> <svg id="vuesax_bold_archive" data-name="vuesax/bold/archive"
@@ -748,79 +745,8 @@
                                 الانتظار : 15د إلي 25د</p>
 
                             <div class="card-doc-btns d-flex justify-content-between ">
-                                <div class="now-btn ">
-                                    حجز الآن
-                                </div>
-                                <div class="save-btn ">
-
-                                    <span> <svg id="vuesax_bold_archive" data-name="vuesax/bold/archive"
-                                            xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                                            viewBox="0 0 24 24">
-                                            <g id="archive">
-                                                <path id="Vector"
-                                                    d="M13.5,0H3.86A3.869,3.869,0,0,0,0,3.86V17.95c0,1.8,1.29,2.56,2.87,1.69l4.88-2.71a2.118,2.118,0,0,1,1.87,0l4.88,2.71c1.58.88,2.87.12,2.87-1.69V3.86A3.884,3.884,0,0,0,13.5,0ZM11.69,7.75a8.878,8.878,0,0,1-3.01.53,8.878,8.878,0,0,1-3.01-.53.749.749,0,0,1-.45-.96.764.764,0,0,1,.97-.45,7.373,7.373,0,0,0,4.99,0,.75.75,0,0,1,.51,1.41Z"
-                                                    transform="translate(3.32 2)" fill="#292d32" />
-                                                <path id="Vector-2" data-name="Vector" d="M0,0H24V24H0Z"
-                                                    transform="translate(24 24) rotate(180)" fill="none" opacity="0" />
-                                            </g>
-                                        </svg>
-                                    </span>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-                <div class="doctor-card col-3  ">
-                    <div class="card-doc-container">
-                        <div class="doctor-card-title d-flex justify-content-between">
-                            <div class="doctor-card-profile d-flex">
-                                <div><img src="assest/images/doc.png" alt=""></div>
-                                <div class="doc-profile-text  ">
-                                    <p>د. احمد عصام</p>
-                                    <p>تخصص أسنان</p>
-                                    <div class="stars-section">
-
-                                        <ul style="margin: 0;" id='stars'>
-                                            <li class='star' title='Poor' data-value='1'>
-                                                <img src="assest/svg/img/star.png" alt="">
-                                            </li>
-                                            <li class='star' title='Fair' data-value='2'>
-                                                <img src="assest/svg/img/star.png" alt="">
-                                            </li>
-                                            <li class='star' title='Good' data-value='3'>
-                                                <img src="assest/svg/img/star.png" alt="">
-                                            </li>
-                                            <li class='star' title='Excellent' data-value='4'>
-                                                <img src="assest/svg/img/star.png" alt="">
-                                            </li>
-                                            <li class='star' title='WOW!!!' data-value='5'>
-                                                <img src="assest/svg/img/star.png" alt="">
-                                            </li>
-                                        </ul>
-
-                                    </div>
-                                </div>
-
-
-
-
-                            </div>
-                            <p class="price" style="font-size: 10px; color:#4835FC ;"> <span><img width="20px"
-                                        height="20px" src="assest/svg/img/vuesax-outline-moneys.png" alt=""></span> 60
-                                ر.س
-                            </p>
-                        </div>
-                        <div style="padding-top:15px" class="card-doc-content">
-                            <p><span><img width="22px" height="22px" src="assest/svg/img/location-pin-svgrepo-com.png"
-                                        alt=""></span> المملكة العربية السعودية - الرياض</p>
-                            <p><span><img width="22px" height="22px"
-                                        src="assest/svg/img/clock-sports-stopwatch-svgrepo-com.png" alt=""></span>مدة
-                                الانتظار : 15د إلي 25د</p>
-
-                            <div class="card-doc-btns d-flex justify-content-between ">
-                                <div class="now-btn ">
-                                    حجز الآن
+                                <div class="now-btn">
+                                    <a href="doctor.html" class="ankor7">حجز الآن</a>
                                 </div>
                                 <div class="save-btn ">
                                     <span> <svg id="vuesax_bold_archive" data-name="vuesax/bold/archive"
@@ -889,8 +815,136 @@
                                 الانتظار : 15د إلي 25د</p>
 
                             <div class="card-doc-btns d-flex justify-content-between ">
-                                <div class="now-btn ">
-                                    حجز الآن
+                                <div class="now-btn">
+                                    <a href="doctor.html" class="ankor7">حجز الآن</a>
+                                </div>
+                                <div class="save-btn ">
+                                    <span> <svg id="vuesax_bold_archive" data-name="vuesax/bold/archive"
+                                            xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                            viewBox="0 0 24 24">
+                                            <g id="archive">
+                                                <path id="Vector"
+                                                    d="M13.5,0H3.86A3.869,3.869,0,0,0,0,3.86V17.95c0,1.8,1.29,2.56,2.87,1.69l4.88-2.71a2.118,2.118,0,0,1,1.87,0l4.88,2.71c1.58.88,2.87.12,2.87-1.69V3.86A3.884,3.884,0,0,0,13.5,0ZM11.69,7.75a8.878,8.878,0,0,1-3.01.53,8.878,8.878,0,0,1-3.01-.53.749.749,0,0,1-.45-.96.764.764,0,0,1,.97-.45,7.373,7.373,0,0,0,4.99,0,.75.75,0,0,1,.51,1.41Z"
+                                                    transform="translate(3.32 2)" fill="#292d32" />
+                                                <path id="Vector-2" data-name="Vector" d="M0,0H24V24H0Z"
+                                                    transform="translate(24 24) rotate(180)" fill="none" opacity="0" />
+                                            </g>
+                                        </svg>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="doctor-card col-3  ">
+                    <div class="card-doc-container">
+                        <div class="doctor-card-title d-flex justify-content-between">
+                            <div class="doctor-card-profile d-flex">
+                                <div><img src="assest/images/doc.png" alt=""></div>
+                                <div class="doc-profile-text  ">
+                                    <p>د. احمد عصام</p>
+                                    <p>تخصص أسنان</p>
+                                    <div class="stars-section">
+
+                                        <ul style="margin: 0;" id='stars'>
+                                            <li class='star' title='Poor' data-value='1'>
+                                                <img src="assest/svg/img/star.png" alt="">
+                                            </li>
+                                            <li class='star' title='Fair' data-value='2'>
+                                                <img src="assest/svg/img/star.png" alt="">
+                                            </li>
+                                            <li class='star' title='Good' data-value='3'>
+                                                <img src="assest/svg/img/star.png" alt="">
+                                            </li>
+                                            <li class='star' title='Excellent' data-value='4'>
+                                                <img src="assest/svg/img/star.png" alt="">
+                                            </li>
+                                            <li class='star' title='WOW!!!' data-value='5'>
+                                                <img src="assest/svg/img/star.png" alt="">
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="price" style="font-size: 10px; color:#4835FC ;"> <span><img width="20px"
+                                        height="20px" src="assest/svg/img/vuesax-outline-moneys.png" alt=""></span> 60
+                                ر.س
+                            </p>
+                        </div>
+                        <div style="padding-top:15px" class="card-doc-content">
+                            <p><span><img width="22px" height="22px" src="assest/svg/img/location-pin-svgrepo-com.png"
+                                        alt=""></span> المملكة العربية السعودية - الرياض</p>
+                            <p><span><img width="22px" height="22px"
+                                        src="assest/svg/img/clock-sports-stopwatch-svgrepo-com.png" alt=""></span>مدة
+                                الانتظار : 15د إلي 25د</p>
+
+                            <div class="card-doc-btns d-flex justify-content-between ">
+                                <div class="now-btn">
+                                    <a href="doctor.html" class="ankor7">حجز الآن</a>
+                                </div>
+                                <div class="save-btn ">
+                                    <span> <svg id="vuesax_bold_archive" data-name="vuesax/bold/archive"
+                                            xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                            viewBox="0 0 24 24">
+                                            <g id="archive">
+                                                <path id="Vector"
+                                                    d="M13.5,0H3.86A3.869,3.869,0,0,0,0,3.86V17.95c0,1.8,1.29,2.56,2.87,1.69l4.88-2.71a2.118,2.118,0,0,1,1.87,0l4.88,2.71c1.58.88,2.87.12,2.87-1.69V3.86A3.884,3.884,0,0,0,13.5,0ZM11.69,7.75a8.878,8.878,0,0,1-3.01.53,8.878,8.878,0,0,1-3.01-.53.749.749,0,0,1-.45-.96.764.764,0,0,1,.97-.45,7.373,7.373,0,0,0,4.99,0,.75.75,0,0,1,.51,1.41Z"
+                                                    transform="translate(3.32 2)" fill="#292d32" />
+                                                <path id="Vector-2" data-name="Vector" d="M0,0H24V24H0Z"
+                                                    transform="translate(24 24) rotate(180)" fill="none" opacity="0" />
+                                            </g>
+                                        </svg>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="doctor-card col-3  ">
+                    <div class="card-doc-container">
+                        <div class="doctor-card-title d-flex justify-content-between">
+                            <div class="doctor-card-profile d-flex">
+                                <div><img src="assest/images/doc.png" alt=""></div>
+                                <div class="doc-profile-text  ">
+                                    <p>د. احمد عصام</p>
+                                    <p>تخصص أسنان</p>
+                                    <div class="stars-section">
+                                        <ul style="margin: 0;" id='stars'>
+                                            <li class='star' title='Poor' data-value='1'>
+                                                <img src="assest/svg/img/star.png" alt="">
+                                            </li>
+                                            <li class='star' title='Fair' data-value='2'>
+                                                <img src="assest/svg/img/star.png" alt="">
+                                            </li>
+                                            <li class='star' title='Good' data-value='3'>
+                                                <img src="assest/svg/img/star.png" alt="">
+                                            </li>
+                                            <li class='star' title='Excellent' data-value='4'>
+                                                <img src="assest/svg/img/star.png" alt="">
+                                            </li>
+                                            <li class='star' title='WOW!!!' data-value='5'>
+                                                <img src="assest/svg/img/star.png" alt="">
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="price" style="font-size: 10px; color:#4835FC ;"> <span><img width="20px"
+                                        height="20px" src="assest/svg/img/vuesax-outline-moneys.png" alt=""></span> 60
+                                ر.س
+                            </p>
+                        </div>
+                        <div style="padding-top:15px" class="card-doc-content">
+                            <p><span><img width="22px" height="22px" src="assest/svg/img/location-pin-svgrepo-com.png"
+                                        alt=""></span> المملكة العربية السعودية - الرياض</p>
+                            <p><span><img width="22px" height="22px"
+                                        src="assest/svg/img/clock-sports-stopwatch-svgrepo-com.png" alt=""></span>مدة
+                                الانتظار : 15د إلي 25د</p>
+
+                            <div class="card-doc-btns d-flex justify-content-between ">
+                                <div class="now-btn">
+                                    <a href="doctor.html" class="ankor7">حجز الآن</a>
                                 </div>
                                 <div class="save-btn ">
                                     <span> <svg id="vuesax_bold_archive" data-name="vuesax/bold/archive"
@@ -959,8 +1013,8 @@
                                 الانتظار : 15د إلي 25د</p>
 
                             <div class="card-doc-btns d-flex justify-content-between ">
-                                <div class="now-btn ">
-                                    حجز الآن
+                                <div class="now-btn">
+                                    <a href="doctor.html" class="ankor7">حجز الآن</a>
                                 </div>
                                 <div class="save-btn ">
                                     <span> <svg id="vuesax_bold_archive" data-name="vuesax/bold/archive"
@@ -1029,8 +1083,218 @@
                                 الانتظار : 15د إلي 25د</p>
 
                             <div class="card-doc-btns d-flex justify-content-between ">
-                                <div class="now-btn ">
-                                    حجز الآن
+                                <div class="now-btn">
+                                    <a href="doctor.html" class="ankor7">حجز الآن</a>
+                                </div>
+                                <div class="save-btn ">
+                                    <span> <svg id="vuesax_bold_archive" data-name="vuesax/bold/archive"
+                                            xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                            viewBox="0 0 24 24">
+                                            <g id="archive">
+                                                <path id="Vector"
+                                                    d="M13.5,0H3.86A3.869,3.869,0,0,0,0,3.86V17.95c0,1.8,1.29,2.56,2.87,1.69l4.88-2.71a2.118,2.118,0,0,1,1.87,0l4.88,2.71c1.58.88,2.87.12,2.87-1.69V3.86A3.884,3.884,0,0,0,13.5,0ZM11.69,7.75a8.878,8.878,0,0,1-3.01.53,8.878,8.878,0,0,1-3.01-.53.749.749,0,0,1-.45-.96.764.764,0,0,1,.97-.45,7.373,7.373,0,0,0,4.99,0,.75.75,0,0,1,.51,1.41Z"
+                                                    transform="translate(3.32 2)" fill="#292d32" />
+                                                <path id="Vector-2" data-name="Vector" d="M0,0H24V24H0Z"
+                                                    transform="translate(24 24) rotate(180)" fill="none" opacity="0" />
+                                            </g>
+                                        </svg>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="doctor-card col-3  ">
+                    <div class="card-doc-container">
+                        <div class="doctor-card-title d-flex justify-content-between">
+                            <div class="doctor-card-profile d-flex">
+                                <div><img src="assest/images/doc.png" alt=""></div>
+                                <div class="doc-profile-text  ">
+                                    <p>د. احمد عصام</p>
+                                    <p>تخصص أسنان</p>
+                                    <div class="stars-section">
+
+                                        <ul style="margin: 0;" id='stars'>
+                                            <li class='star' title='Poor' data-value='1'>
+                                                <img src="assest/svg/img/star.png" alt="">
+                                            </li>
+                                            <li class='star' title='Fair' data-value='2'>
+                                                <img src="assest/svg/img/star.png" alt="">
+                                            </li>
+                                            <li class='star' title='Good' data-value='3'>
+                                                <img src="assest/svg/img/star.png" alt="">
+                                            </li>
+                                            <li class='star' title='Excellent' data-value='4'>
+                                                <img src="assest/svg/img/star.png" alt="">
+                                            </li>
+                                            <li class='star' title='WOW!!!' data-value='5'>
+                                                <img src="assest/svg/img/star.png" alt="">
+                                            </li>
+                                        </ul>
+
+                                    </div>
+                                </div>
+
+
+
+
+                            </div>
+                            <p class="price" style="font-size: 10px; color:#4835FC ;"> <span><img width="20px"
+                                        height="20px" src="assest/svg/img/vuesax-outline-moneys.png" alt=""></span> 60
+                                ر.س
+                            </p>
+                        </div>
+                        <div style="padding-top:15px" class="card-doc-content">
+                            <p><span><img width="22px" height="22px" src="assest/svg/img/location-pin-svgrepo-com.png"
+                                        alt=""></span> المملكة العربية السعودية - الرياض</p>
+                            <p><span><img width="22px" height="22px"
+                                        src="assest/svg/img/clock-sports-stopwatch-svgrepo-com.png" alt=""></span>مدة
+                                الانتظار : 15د إلي 25د</p>
+
+                            <div class="card-doc-btns d-flex justify-content-between ">
+                                <div class="now-btn">
+                                    <a href="doctor.html" class="ankor7">حجز الآن</a>
+                                </div>
+                                <div class="save-btn ">
+                                    <span> <svg id="vuesax_bold_archive" data-name="vuesax/bold/archive"
+                                            xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                            viewBox="0 0 24 24">
+                                            <g id="archive">
+                                                <path id="Vector"
+                                                    d="M13.5,0H3.86A3.869,3.869,0,0,0,0,3.86V17.95c0,1.8,1.29,2.56,2.87,1.69l4.88-2.71a2.118,2.118,0,0,1,1.87,0l4.88,2.71c1.58.88,2.87.12,2.87-1.69V3.86A3.884,3.884,0,0,0,13.5,0ZM11.69,7.75a8.878,8.878,0,0,1-3.01.53,8.878,8.878,0,0,1-3.01-.53.749.749,0,0,1-.45-.96.764.764,0,0,1,.97-.45,7.373,7.373,0,0,0,4.99,0,.75.75,0,0,1,.51,1.41Z"
+                                                    transform="translate(3.32 2)" fill="#292d32" />
+                                                <path id="Vector-2" data-name="Vector" d="M0,0H24V24H0Z"
+                                                    transform="translate(24 24) rotate(180)" fill="none" opacity="0" />
+                                            </g>
+                                        </svg>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="doctor-card col-3  ">
+                    <div class="card-doc-container">
+                        <div class="doctor-card-title d-flex justify-content-between">
+                            <div class="doctor-card-profile d-flex">
+                                <div><img src="assest/images/doc.png" alt=""></div>
+                                <div class="doc-profile-text  ">
+                                    <p>د. احمد عصام</p>
+                                    <p>تخصص أسنان</p>
+                                    <div class="stars-section">
+
+                                        <ul style="margin: 0;" id='stars'>
+                                            <li class='star' title='Poor' data-value='1'>
+                                                <img src="assest/svg/img/star.png" alt="">
+                                            </li>
+                                            <li class='star' title='Fair' data-value='2'>
+                                                <img src="assest/svg/img/star.png" alt="">
+                                            </li>
+                                            <li class='star' title='Good' data-value='3'>
+                                                <img src="assest/svg/img/star.png" alt="">
+                                            </li>
+                                            <li class='star' title='Excellent' data-value='4'>
+                                                <img src="assest/svg/img/star.png" alt="">
+                                            </li>
+                                            <li class='star' title='WOW!!!' data-value='5'>
+                                                <img src="assest/svg/img/star.png" alt="">
+                                            </li>
+                                        </ul>
+
+                                    </div>
+                                </div>
+
+
+
+
+                            </div>
+                            <p class="price" style="font-size: 10px; color:#4835FC ;"> <span><img width="20px"
+                                        height="20px" src="assest/svg/img/vuesax-outline-moneys.png" alt=""></span> 60
+                                ر.س
+                            </p>
+                        </div>
+                        <div style="padding-top:15px" class="card-doc-content">
+                            <p><span><img width="22px" height="22px" src="assest/svg/img/location-pin-svgrepo-com.png"
+                                        alt=""></span> المملكة العربية السعودية - الرياض</p>
+                            <p><span><img width="22px" height="22px"
+                                        src="assest/svg/img/clock-sports-stopwatch-svgrepo-com.png" alt=""></span>مدة
+                                الانتظار : 15د إلي 25د</p>
+
+                            <div class="card-doc-btns d-flex justify-content-between ">
+                                <div class="now-btn">
+                                    <a href="doctor.html" class="ankor7">حجز الآن</a>
+                                </div>
+                                <div class="save-btn ">
+                                    <span> <svg id="vuesax_bold_archive" data-name="vuesax/bold/archive"
+                                            xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                            viewBox="0 0 24 24">
+                                            <g id="archive">
+                                                <path id="Vector"
+                                                    d="M13.5,0H3.86A3.869,3.869,0,0,0,0,3.86V17.95c0,1.8,1.29,2.56,2.87,1.69l4.88-2.71a2.118,2.118,0,0,1,1.87,0l4.88,2.71c1.58.88,2.87.12,2.87-1.69V3.86A3.884,3.884,0,0,0,13.5,0ZM11.69,7.75a8.878,8.878,0,0,1-3.01.53,8.878,8.878,0,0,1-3.01-.53.749.749,0,0,1-.45-.96.764.764,0,0,1,.97-.45,7.373,7.373,0,0,0,4.99,0,.75.75,0,0,1,.51,1.41Z"
+                                                    transform="translate(3.32 2)" fill="#292d32" />
+                                                <path id="Vector-2" data-name="Vector" d="M0,0H24V24H0Z"
+                                                    transform="translate(24 24) rotate(180)" fill="none" opacity="0" />
+                                            </g>
+                                        </svg>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="doctor-card col-3  ">
+                    <div class="card-doc-container">
+                        <div class="doctor-card-title d-flex justify-content-between">
+                            <div class="doctor-card-profile d-flex">
+                                <div><img src="assest/images/doc.png" alt=""></div>
+                                <div class="doc-profile-text  ">
+                                    <p>د. احمد عصام</p>
+                                    <p>تخصص أسنان</p>
+                                    <div class="stars-section">
+
+                                        <ul style="margin: 0;" id='stars'>
+                                            <li class='star' title='Poor' data-value='1'>
+                                                <img src="assest/svg/img/star.png" alt="">
+                                            </li>
+                                            <li class='star' title='Fair' data-value='2'>
+                                                <img src="assest/svg/img/star.png" alt="">
+                                            </li>
+                                            <li class='star' title='Good' data-value='3'>
+                                                <img src="assest/svg/img/star.png" alt="">
+                                            </li>
+                                            <li class='star' title='Excellent' data-value='4'>
+                                                <img src="assest/svg/img/star.png" alt="">
+                                            </li>
+                                            <li class='star' title='WOW!!!' data-value='5'>
+                                                <img src="assest/svg/img/star.png" alt="">
+                                            </li>
+                                        </ul>
+
+                                    </div>
+                                </div>
+
+
+
+
+                            </div>
+                            <p class="price" style="font-size: 10px; color:#4835FC ;"> <span><img width="20px"
+                                        height="20px" src="assest/svg/img/vuesax-outline-moneys.png" alt=""></span> 60
+                                ر.س
+                            </p>
+                        </div>
+                        <div style="padding-top:15px" class="card-doc-content">
+                            <p><span><img width="22px" height="22px" src="assest/svg/img/location-pin-svgrepo-com.png"
+                                        alt=""></span> المملكة العربية السعودية - الرياض</p>
+                            <p><span><img width="22px" height="22px"
+                                        src="assest/svg/img/clock-sports-stopwatch-svgrepo-com.png" alt=""></span>مدة
+                                الانتظار : 15د إلي 25د</p>
+
+                            <div class="card-doc-btns d-flex justify-content-between ">
+                                <div class="now-btn">
+                                    <a href="doctor.html" class="ankor7">حجز الآن</a>
                                 </div>
                                 <div class="save-btn ">
                                     <span> <svg id="vuesax_bold_archive" data-name="vuesax/bold/archive"
