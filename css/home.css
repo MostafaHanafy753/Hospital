@@ -85,6 +85,9 @@ input[type="radio"] {
 margin-top: 14px;
 font-size: 10px;
  }
+ .dis{
+  display: none;
+ }
 }
 /* APP SECTION */
 .app-sec>div {
@@ -154,6 +157,12 @@ font-size: 10px;
     margin-bottom: 30px;
   }
 
+}
+@media only screen and (max-width: 520px) {
+
+ .dis{
+  display: none;
+ }
 }
 
 .btn-group a {
@@ -324,10 +333,10 @@ body[dir=rtl] .moving-border {
 
 }
 .highlight {
-  background-color: #4835FC;
-  border-radius: 30px;
-   color: #fff;
- }
+
+  border-bottom: 5px solid #4835FC;
+
+   }
 
 body[dir=rtl] .card-button:nth-child(2):hover ~.moving-border {
   transform: translateX(-100%);
